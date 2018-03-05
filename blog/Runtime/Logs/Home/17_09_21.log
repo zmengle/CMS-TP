@@ -1,0 +1,126 @@
+[ 2017-09-21T10:06:06+08:00 ] 127.0.0.1 /index.php?c=index&a=getCount
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.018944s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.031521s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.031640s ]
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0462s ]
+SQL: SELECT `menu_id`,`name` FROM `cms_menu` WHERE `status` = 1 AND `type` = 0 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0359s ]
+SQL: SELECT `news_id`,`title`,`description` FROM `cms_news` WHERE `status` = 1 ORDER BY count desc , listorder desc LIMIT 10   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0393s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 3 AND `status` = 1 ORDER BY listorder desc ,id desc  [ RunTime:0.0008s ]
+SQL: SELECT `news_id`,`title`,`thumb`,`status`,`count` FROM `cms_news` WHERE `news_id` IN ('1','10','9','8','7')  [ RunTime:0.0003s ]
+
+[ 2017-09-21T11:26:31+08:00 ] 127.0.0.1 /index.php?c=index&a=getCount
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000918s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002244s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002415s ]
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0359s ]
+SQL: SELECT `menu_id`,`name` FROM `cms_menu` WHERE `status` = 1 AND `type` = 0 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0186s ]
+SQL: SELECT `news_id`,`title`,`description` FROM `cms_news` WHERE `status` = 1 ORDER BY count desc , listorder desc LIMIT 10   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0182s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 3 AND `status` = 1 ORDER BY listorder desc ,id desc  [ RunTime:0.0007s ]
+SQL: SELECT `news_id`,`title`,`thumb`,`status`,`count` FROM `cms_news` WHERE `news_id` IN ('1','10','9','8','7')  [ RunTime:0.0006s ]
+
+[ 2017-09-21T11:26:45+08:00 ] 127.0.0.1 /index.php?c=detail&news_id=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000946s ]
+
+[ 2017-09-21T11:26:55+08:00 ] 127.0.0.1 /index.php?c=index&a=getCount
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000471s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000626s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000696s ]
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0376s ]
+SQL: SELECT `menu_id`,`name` FROM `cms_menu` WHERE `status` = 1 AND `type` = 0 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0141s ]
+SQL: SELECT `news_id`,`title`,`description` FROM `cms_news` WHERE `status` = 1 ORDER BY count desc , listorder desc LIMIT 10   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0121s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 3 AND `status` = 1 ORDER BY listorder desc ,id desc  [ RunTime:0.0004s ]
+SQL: SELECT `news_id`,`title`,`thumb`,`status`,`count` FROM `cms_news` WHERE `news_id` IN ('1','10','9','8','7')  [ RunTime:0.0002s ]
+
+[ 2017-09-21T11:27:02+08:00 ] 127.0.0.1 /index.php?c=detail&news_id=9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000565s ]
+
+[ 2017-09-21T11:27:05+08:00 ] 127.0.0.1 /index.php?c=index&a=getCount
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000535s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000622s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000696s ]
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0478s ]
+SQL: SELECT `menu_id`,`name` FROM `cms_menu` WHERE `status` = 1 AND `type` = 0 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0125s ]
+SQL: SELECT `news_id`,`title`,`description` FROM `cms_news` WHERE `status` = 1 ORDER BY count desc , listorder desc LIMIT 10   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0155s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 3 AND `status` = 1 ORDER BY listorder desc ,id desc  [ RunTime:0.0004s ]
+SQL: SELECT `news_id`,`title`,`thumb`,`status`,`count` FROM `cms_news` WHERE `news_id` IN ('1','10','9','8','7')  [ RunTime:0.0002s ]
+
+[ 2017-09-21T11:29:06+08:00 ] 127.0.0.1 /index.php?c=cat&catid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000469s ]
+
+[ 2017-09-21T11:29:40+08:00 ] 127.0.0.1 /index.php?c=detail&news_id=7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000549s ]
+
+[ 2017-09-21T11:29:48+08:00 ] 127.0.0.1 /index.php?c=detail&news_id=8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000457s ]
+
+[ 2017-09-21T11:52:38+08:00 ] 127.0.0.1 /index.php?m=home&c=index&a=build_html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000736s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000990s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001130s ]
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0327s ]
+SQL: SELECT `menu_id`,`name` FROM `cms_menu` WHERE `status` = 1 AND `type` = 0 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0138s ]
+SQL: SELECT `news_id`,`title`,`description` FROM `cms_news` WHERE `status` = 1 ORDER BY count desc , listorder desc LIMIT 10   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0182s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 3 AND `status` = 1 ORDER BY listorder desc ,id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 1 AND `status` = 1 ORDER BY listorder desc ,id desc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 2 AND `status` = 1 ORDER BY listorder desc ,id desc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` = 1 ORDER BY create_time desc  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000148s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000229s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.166106s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.166214s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000634s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000695s ]
+
+[ 2017-09-21T20:39:50+08:00 ] 127.0.0.1 /index.php?c=index&a=getCount
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003054s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001396s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001536s ]
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0207s ]
+SQL: SELECT `menu_id`,`name` FROM `cms_menu` WHERE `status` = 1 AND `type` = 0 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0196s ]
+SQL: SELECT `news_id`,`title`,`description` FROM `cms_news` WHERE `status` = 1 ORDER BY count desc , listorder desc LIMIT 10   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 3 AND `status` = 1 ORDER BY listorder desc ,id desc  [ RunTime:0.0007s ]
+SQL: SELECT `news_id`,`title`,`thumb`,`status`,`count` FROM `cms_news` WHERE `news_id` IN ('1','10','9','8','7')  [ RunTime:0.0005s ]
+

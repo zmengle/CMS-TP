@@ -1,0 +1,78 @@
+<!-- 引入头 -->
+<include file="Index/header" />
+
+<body>
+    
+<div id="wrapper">
+    
+    <!-- 引入导航 -->
+    <include file="Index/nav" />
+    <div id="page-wrapper" class="content-wrapper py3">
+        <div class="container-fluid">
+            
+            <div class="row">
+                <div class="col-lg-12" style="padding-top: 20px;">
+                    <ol class="breadcrumb">
+                        <li><i class="fa fa-lg fa-dashboard"></i><a href="/admin.php"> 菜单管理</a></li>
+                        <li class="active"><i class="fa fa-lg fa-edit"></i> 编辑</li>
+                    </ol>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <form action="" class="form-horizontal" id="menu_edit">
+                        <div class="form-group">
+                            <label for="inputname" class="col-sm-2 control-label">菜单名:</label>
+                            <div class="col-sm-5"><input type="text" class="form-control" id="inputname" name="name" value="{$menu.name}" placeholder="请填写菜单名"></div>
+                        </div>
+                        <div class="form-group">
+                            <label for="inputPassword3" class="col-sm-2 control-label">菜单类型:</label>
+                            <div class="col-sm-5">
+                                <input type="radio" id="optionsRadiosInline1" name="type" value="1" <if condition="$menu.type eq 1">checked</if>>后台菜单
+                                <input type="radio" id="optionsRadiosInline2" name="type" value="0" <if condition="$menu.type eq 0">checked</if>>前端栏目
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="inputPassword3" class="col-sm-2 control-label">模块名:</label>
+                            <div class="col-sm-5"><input type="text" class="form-control" id="" name="m" value="{$menu.m}" placeholder="模块名"></div>
+                        </div>
+                        <div class="form-group">
+                            <label for="inputPassword3" class="col-sm-2 control-label">控制器:</label>
+                            <div class="col-sm-5"><input type="text" class="form-control" id="" name="c" value="{$menu.c}" placeholder="控制器"></div>
+                        </div>
+                        <div class="form-group">
+                            <label for="inputPassword3" class="col-sm-2 control-label">方法:</label>
+                            <div class="col-sm-5"><input type="text" class="form-control" id="" name="f" value="{$menu.f}" placeholder="方法"></div>
+                        </div>
+                        <!-- <div class="form-group">
+                            <label for="" class="col-sm-2 control-label"></label>
+                            <div class="col-sm-5"><input type="text" class="form-control" id="" name="" value="" placeholder=""></div>
+                        </div> -->
+                        <div class="form-group">
+                            <label for="inputPassword3" class="col-sm-2 control-label">状态</label>
+                            <div class="col-sm-5">
+                                <input type="radio" id="optionsRadiosInline3" name="status" value="1" <if condition="$menu.status eq 1">checked</if>>开启
+                                <input type="radio" id="optionsRadiosInline4" name="status" value="0" <if condition="$menu.status eq 0">checked</if>>关闭
+                            </div>
+                        </div>
+                        <input type="hidden" name="menu_id" value="{$menu.menu_id}">
+                        <div class="from-group">
+                            <div class="col-sm-offset-2 col-sm-10">
+                                <button type="button" class="btn btn-default" id="menu_edit_sub">更新</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    var SCOPE={
+        'save_url' : '/admin.php?c=menu&a=add',
+        'jump_url' : '/admin.php?c=menu'
+    };
+</script>
+<!-- 引入尾部 -->
+<include file="Index/footer" />

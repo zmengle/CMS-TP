@@ -1,0 +1,52 @@
+<include file="Index/header" />
+<body>
+<div id="wrapper">
+
+    <include file="Index/nav" />
+    <div id="page-wrapper" class="content-wrapper py3">
+        <div class="container-fluid">
+
+            <div class="row mt20">
+                <div class="col-lg-12">
+                    <ol class="breadcrumb">
+                        <li class="active"><i class="fa fa-lg fa-cog"></i> 基本配置</li>
+                        <li>基本配置</li>
+                    </ol>
+                </div>
+            </div>
+            <include file="Basic/button" />
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="col-sm-5">
+                        <div class="alert alert-info" role="alert">
+                            <span>更新首页缓存：    </span>
+                            <button class="btn btn-primary" type="button" id="update_cache">确定更新</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    var SCOPE={
+        'update_cache_url':'/index.php?m=home&c=index&a=build_html',
+        'jump_url':'/admin.php?c=basic&a=cache'
+    };
+</script>
+<script>
+    $(function () {
+       $('#update_cache').on('click', function () {
+           var url=SCOPE.update_cache_url;
+           var postData={};
+           $.post(url, postData, function (result) {
+               if (result.status==1){
+                   return dialog.success(result.message, SCOPE.jump_url);
+               }else if(result.status==0){
+                   return dialog.error(result.message);
+               }
+           }, 'json');
+       });
+    });
+</script>
+<include file="Index/footer" />

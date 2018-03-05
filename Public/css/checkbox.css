@@ -1,0 +1,71 @@
+/*
+*css3 滑动开关
+*将div.turn放到html中，更改turn的固定宽高即可
+*/
+/**{
+    !*具体可屏蔽*!
+    margin: 0;
+    padding: 0;
+}*/
+/*固定宽高比2:1*/
+.turn{
+    width: 100px;
+    height: 50px;
+    display: inline-block;
+    position: relative;
+}
+.turn input[type=checkbox]{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    z-index: 1;
+    cursor: pointer;
+}
+.turn span{
+    width: 100%;
+    height: 100%;
+    background: #ccc;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    border-radius: 25px; /*宽度的1/4*/
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+}
+.turn span::after{
+    content: '';
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    border-radius: 100%;
+    left: 0;
+    top: 0;
+    background: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+}
+.turn input:hover + span::after{
+    box-shadow: 0 2px 15px 0 rgba(0, 0, 0, 0.2), 0 3px 8px 0 rgba(0, 0, 0, 0.15);
+}
+.turn input:checked + span{
+    background: #4BD865;
+}
+.turn input:checked + span::after{
+    left: 50%;
+}
+.turn{
+    width: 50px;
+    height: 25px;
+}
+.turn input[type=checkbox]{
+    margin: 0;
+    padding: 0;
+}
+.turn span{
+    border-radius: 13px;
+}

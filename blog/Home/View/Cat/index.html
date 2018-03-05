@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>catid</title>
+    <include file="Index/header" />
+</head>
+<body>
+<!-- index -->
+    <!-- nav -->
+    <include file="Index/nav" />
+
+    <div class="container catid">
+        <!-- container -->
+        <div class="row">
+            <div class="col-md-9">
+                <div class="page-list">
+                    <volist name="news" id="new">
+                        <div class="row content clearfix ">
+                            <if condition="$new['thumb']">
+                                <div class="hidden-xs col-sm-3">
+                                    <a href="{$new.news_id|getNewUrl}" class="thumb radius-shadow"><img src="{$new.thumb}" alt="{$new.title}"></a>
+                                </div>
+                                <div class="col-xs-12 col-sm-9">
+                                    <dl>
+                                        <dt><a href="{$new.news_id|getNewUrl}">{$new.title}</a></dt>
+                                        <dd>{$new.description}...</dd>
+                                    </dl>
+                                    <div class="remark">
+                                        <span><i class="fa fa-tags"></i> {$new.keywords}</span>
+                                        <span><i class="fa fa-calendar"></i> {$new.create_time|date='Y-m-d H:i', ###}</span>
+                                        <span><i class="fa fa-star"></i> 阅读({$new.count})</span>
+                                    </div>
+                                </div>
+                                <else />
+                                <div class="col-xs-12">
+                                    <dl>
+                                        <dt><a href="{$new.news_id|getNewUrl}">{$new.title}</a></dt>
+                                        <dd>{$new.description}...</dd>
+                                    </dl>
+                                    <div class="remark">
+                                        <span><i class="fa fa-tags"></i> {$new.keywords}</span>
+                                        <span><i class="fa fa-calendar"></i> {$new.create_time|date='Y-m-d H:i', ###}</span>
+                                        <span><i class="fa fa-star"></i> 阅读({$new.count})</span>
+                                    </div>
+                                </div>
+                            </if>
+                        </div>
+                    </volist>
+                    <!--<div class="row content clearfix ">
+                        <div class="hidden-xs col-sm-3">
+                            <a href="" class="thumb"><img src="Public/images/banner1.jpg" alt=""></a>
+                        </div>
+                        <div class="col-xs-12 col-sm-9">
+                            <dl>
+                                <dt><a href="">这是标题</a></dt>
+                                <dd>这是内容简介当你重置浏览器大小的过程中，页面也会根据浏览器的宽度和面也会根据浏览器的宽度和面也会根据浏览器的宽度和高度重新渲染页面...</dd>
+                            </dl>
+                            <div class="remark">
+                                <span><i class="fa fa-tags"></i> 关键词</span>
+                                <span><i class="fa fa-calendar"></i> 时间</span>
+                                <span><i class="fa fa-star"></i> 阅读(1万+)</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row content clearfix ">
+                        <div class="hidden-xs col-sm-3">
+                            <a href="" class="thumb"><img src="Public/images/banner1.jpg" alt=""></a>
+                        </div>
+                        <div class="col-xs-12 col-sm-9">
+                            <dl>
+                                <dt><a href="">这是标题</a></dt>
+                                <dd>这是内容简介当你重置浏览器大小的过程中，页面也会根据浏览器的宽度和面也会根据浏览器的宽度和面也会根据浏览器的宽度和高度重新渲染页面...</dd>
+                            </dl>
+                            <div class="remark">
+                                <span><i class="fa fa-tags"></i> 关键词</span>
+                                <span><i class="fa fa-calendar"></i> 时间</span>
+                                <span><i class="fa fa-star"></i> 阅读(1万+)</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row content clearfix ">
+                        <div class="hidden-xs col-sm-3">
+                            <a href="" class="thumb"><img src="Public/images/banner1.jpg" alt=""></a>
+                        </div>
+                        <div class="col-xs-12 col-sm-9">
+                            <dl>
+                                <dt><a href="">这是标题</a></dt>
+                                <dd>这是内容简介当你重置浏览器大小的过程中，页面也会根据浏览器的宽度和面也会根据浏览器的宽度和面也会根据浏览器的宽度和高度重新渲染页面...</dd>
+                            </dl>
+                            <div class="remark">
+                                <span><i class="fa fa-tags"></i> 关键词</span>
+                                <span><i class="fa fa-calendar"></i> 时间</span>
+                                <span><i class="fa fa-star"></i> 阅读(1万+)</span>
+                            </div>
+                        </div>
+                    </div>-->
+                    <div class="row clearfix">
+                        <div class="col-xs-12 page-header text-center">
+                            加载更多。。。
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <include file="Index/right" />
+        </div>
+    </div>
+    <include file="Index/footer" />
+<!-- js -->
+<script src="../../../../Public/js/jquery-3.2.1.js"></script>
+<script src="../../../../Public/bootstrap/js/bootstrap.js"></script>
+</body>
+</html>

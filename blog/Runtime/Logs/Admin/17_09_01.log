@@ -1,0 +1,1301 @@
+[ 2017-09-01T16:21:07+08:00 ] 127.0.0.1 /admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000555s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000891s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000972s ]
+NOTIC: [8] Undefined variable: module D:\phpStudy\WWW\TPblog\ThinkPHP\Common\functions.php 第 990 行.
+NOTIC: [8] Undefined variable: var D:\phpStudy\WWW\TPblog\ThinkPHP\Common\functions.php 第 990 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given D:\phpStudy\WWW\TPblog\ThinkPHP\Common\functions.php 第 990 行.
+NOTIC: [2] http_build_query() [<a href='function.http-build-query'>function.http-build-query</a>]: Parameter 1 expected to be Array or Object.  Incorrect value given D:\phpStudy\WWW\TPblog\ThinkPHP\Common\functions.php 第 990 行.
+
+[ 2017-09-01T16:21:07+08:00 ] 127.0.0.1 /admin.php?m=&&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000605s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000727s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000806s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000150s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.049344s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049459s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000545s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000613s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000791s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000862s ]
+
+[ 2017-09-01T16:21:18+08:00 ] 127.0.0.1 /index.php?m=admin&c=login&a=check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000794s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001226s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001353s ]
+SQL: SHOW COLUMNS FROM `cms_admin` [ RunTime:0.0551s ]
+SQL: SELECT * FROM `cms_admin` WHERE ( username="admin" AND status=1 ) LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2017-09-01T16:21:20+08:00 ] 127.0.0.1 /index.php?m=admin&c=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000482s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000698s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000779s ]
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0317s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000139s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000245s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.084380s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.084527s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000815s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000908s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001313s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001445s ]
+
+[ 2017-09-01T16:21:26+08:00 ] 127.0.0.1 /admin.php?c=content
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000553s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001377s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001495s ]
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0465s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: title D:\phpStudy\WWW\TPblog\blog\Admin\Controller\ContentController.class.php 第 11 行.
+NOTIC: [8] Undefined index: catid D:\phpStudy\WWW\TPblog\blog\Admin\Controller\ContentController.class.php 第 15 行.
+NOTIC: [8] Undefined index: pageSize D:\phpStudy\WWW\TPblog\blog\Admin\Controller\ContentController.class.php 第 20 行.
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\TPblog\blog\Admin\Controller\ContentController.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0234s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` <> -1 ORDER BY listorder desc,news_id desc LIMIT 0,4   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_news` WHERE `status` <> -1 LIMIT 1   [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `cms_position` [ RunTime:0.0409s ]
+SQL: SELECT * FROM `cms_position` WHERE `status` <> -1 ORDER BY id desc LIMIT 0,10   [ RunTime:0.0007s ]
+SQL: SELECT `menu_id`,`name` FROM `cms_menu` WHERE `status` = 1 AND `type` = 0 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000137s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000243s ]
+NOTIC: [8] Undefined variable: menu_id D:\phpStudy\WWW\TPblog\blog\Runtime\Cache\Admin\391c64d00658b055f3a6b536840d00ed.php 第 120 行.
+NOTIC: [8] Undefined variable: menu_id D:\phpStudy\WWW\TPblog\blog\Runtime\Cache\Admin\391c64d00658b055f3a6b536840d00ed.php 第 120 行.
+NOTIC: [8] Undefined variable: menu_id D:\phpStudy\WWW\TPblog\blog\Runtime\Cache\Admin\391c64d00658b055f3a6b536840d00ed.php 第 120 行.
+NOTIC: [8] Undefined variable: menu_id D:\phpStudy\WWW\TPblog\blog\Runtime\Cache\Admin\391c64d00658b055f3a6b536840d00ed.php 第 120 行.
+NOTIC: [8] Undefined variable: menu_id D:\phpStudy\WWW\TPblog\blog\Runtime\Cache\Admin\391c64d00658b055f3a6b536840d00ed.php 第 120 行.
+NOTIC: [8] Undefined variable: menu_id D:\phpStudy\WWW\TPblog\blog\Runtime\Cache\Admin\391c64d00658b055f3a6b536840d00ed.php 第 120 行.
+NOTIC: [8] Undefined variable: menu_id D:\phpStudy\WWW\TPblog\blog\Runtime\Cache\Admin\391c64d00658b055f3a6b536840d00ed.php 第 120 行.
+NOTIC: [8] Undefined variable: menu_id D:\phpStudy\WWW\TPblog\blog\Runtime\Cache\Admin\391c64d00658b055f3a6b536840d00ed.php 第 120 行.
+NOTIC: [8] Undefined variable: title D:\phpStudy\WWW\TPblog\blog\Runtime\Cache\Admin\391c64d00658b055f3a6b536840d00ed.php 第 128 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.139858s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.139956s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000919s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001023s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001452s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001604s ]
+
+[ 2017-09-01T16:25:31+08:00 ] 127.0.0.1 /admin.php?c=content
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000666s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001339s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001449s ]
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0559s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: title D:\phpStudy\WWW\TPblog\blog\Admin\Controller\ContentController.class.php 第 11 行.
+NOTIC: [8] Undefined index: catid D:\phpStudy\WWW\TPblog\blog\Admin\Controller\ContentController.class.php 第 15 行.
+NOTIC: [8] Undefined index: pageSize D:\phpStudy\WWW\TPblog\blog\Admin\Controller\ContentController.class.php 第 20 行.
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\TPblog\blog\Admin\Controller\ContentController.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0415s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` <> -1 ORDER BY listorder desc,news_id desc LIMIT 0,4   [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_news` WHERE `status` <> -1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `cms_position` [ RunTime:0.0321s ]
+SQL: SELECT * FROM `cms_position` WHERE `status` <> -1 ORDER BY id desc LIMIT 0,10   [ RunTime:0.0005s ]
+SQL: SELECT `menu_id`,`name` FROM `cms_menu` WHERE `status` = 1 AND `type` = 0 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000184s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000293s ]
+NOTIC: [8] Undefined variable: menu_id D:\phpStudy\WWW\TPblog\blog\Runtime\Cache\Admin\391c64d00658b055f3a6b536840d00ed.php 第 120 行.
+NOTIC: [8] Undefined variable: menu_id D:\phpStudy\WWW\TPblog\blog\Runtime\Cache\Admin\391c64d00658b055f3a6b536840d00ed.php 第 120 行.
+NOTIC: [8] Undefined variable: menu_id D:\phpStudy\WWW\TPblog\blog\Runtime\Cache\Admin\391c64d00658b055f3a6b536840d00ed.php 第 120 行.
+NOTIC: [8] Undefined variable: menu_id D:\phpStudy\WWW\TPblog\blog\Runtime\Cache\Admin\391c64d00658b055f3a6b536840d00ed.php 第 120 行.
+NOTIC: [8] Undefined variable: menu_id D:\phpStudy\WWW\TPblog\blog\Runtime\Cache\Admin\391c64d00658b055f3a6b536840d00ed.php 第 120 行.
+NOTIC: [8] Undefined variable: menu_id D:\phpStudy\WWW\TPblog\blog\Runtime\Cache\Admin\391c64d00658b055f3a6b536840d00ed.php 第 120 行.
+NOTIC: [8] Undefined variable: menu_id D:\phpStudy\WWW\TPblog\blog\Runtime\Cache\Admin\391c64d00658b055f3a6b536840d00ed.php 第 120 行.
+NOTIC: [8] Undefined variable: menu_id D:\phpStudy\WWW\TPblog\blog\Runtime\Cache\Admin\391c64d00658b055f3a6b536840d00ed.php 第 120 行.
+NOTIC: [8] Undefined variable: title D:\phpStudy\WWW\TPblog\blog\Runtime\Cache\Admin\391c64d00658b055f3a6b536840d00ed.php 第 128 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.137840s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.137964s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001003s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001115s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001758s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001927s ]
+
+[ 2017-09-01T16:34:26+08:00 ] 127.0.0.1 /admin.php?c=content
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000855s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001054s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001154s ]
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0435s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: title D:\phpStudy\WWW\TPblog\blog\Admin\Controller\ContentController.class.php 第 11 行.
+NOTIC: [8] Undefined index: catid D:\phpStudy\WWW\TPblog\blog\Admin\Controller\ContentController.class.php 第 15 行.
+NOTIC: [8] Undefined index: pageSize D:\phpStudy\WWW\TPblog\blog\Admin\Controller\ContentController.class.php 第 20 行.
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\TPblog\blog\Admin\Controller\ContentController.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0364s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` <> -1 ORDER BY listorder desc,news_id desc LIMIT 0,4   [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_news` WHERE `status` <> -1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `cms_position` [ RunTime:0.0317s ]
+SQL: SELECT * FROM `cms_position` WHERE `status` <> -1 ORDER BY id desc LIMIT 0,10   [ RunTime:0.0004s ]
+SQL: SELECT `menu_id`,`name` FROM `cms_menu` WHERE `status` = 1 AND `type` = 0 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000208s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000350s ]
+NOTIC: [8] Undefined variable: menu_id D:\phpStudy\WWW\TPblog\blog\Runtime\Cache\Admin\391c64d00658b055f3a6b536840d00ed.php 第 120 行.
+NOTIC: [8] Undefined variable: menu_id D:\phpStudy\WWW\TPblog\blog\Runtime\Cache\Admin\391c64d00658b055f3a6b536840d00ed.php 第 120 行.
+NOTIC: [8] Undefined variable: menu_id D:\phpStudy\WWW\TPblog\blog\Runtime\Cache\Admin\391c64d00658b055f3a6b536840d00ed.php 第 120 行.
+NOTIC: [8] Undefined variable: menu_id D:\phpStudy\WWW\TPblog\blog\Runtime\Cache\Admin\391c64d00658b055f3a6b536840d00ed.php 第 120 行.
+NOTIC: [8] Undefined variable: menu_id D:\phpStudy\WWW\TPblog\blog\Runtime\Cache\Admin\391c64d00658b055f3a6b536840d00ed.php 第 120 行.
+NOTIC: [8] Undefined variable: menu_id D:\phpStudy\WWW\TPblog\blog\Runtime\Cache\Admin\391c64d00658b055f3a6b536840d00ed.php 第 120 行.
+NOTIC: [8] Undefined variable: menu_id D:\phpStudy\WWW\TPblog\blog\Runtime\Cache\Admin\391c64d00658b055f3a6b536840d00ed.php 第 120 行.
+NOTIC: [8] Undefined variable: menu_id D:\phpStudy\WWW\TPblog\blog\Runtime\Cache\Admin\391c64d00658b055f3a6b536840d00ed.php 第 120 行.
+NOTIC: [8] Undefined variable: title D:\phpStudy\WWW\TPblog\blog\Runtime\Cache\Admin\391c64d00658b055f3a6b536840d00ed.php 第 128 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.167859s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.167982s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001003s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001151s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002524s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002786s ]
+
+[ 2017-09-01T16:34:33+08:00 ] 127.0.0.1 /admin.php?c=content
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001104s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001697s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001876s ]
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0356s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: title D:\phpStudy\WWW\TPblog\blog\Admin\Controller\ContentController.class.php 第 11 行.
+NOTIC: [8] Undefined index: catid D:\phpStudy\WWW\TPblog\blog\Admin\Controller\ContentController.class.php 第 15 行.
+NOTIC: [8] Undefined index: pageSize D:\phpStudy\WWW\TPblog\blog\Admin\Controller\ContentController.class.php 第 20 行.
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\TPblog\blog\Admin\Controller\ContentController.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0257s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` <> -1 ORDER BY listorder desc,news_id desc LIMIT 0,4   [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_news` WHERE `status` <> -1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `cms_position` [ RunTime:0.0276s ]
+SQL: SELECT * FROM `cms_position` WHERE `status` <> -1 ORDER BY id desc LIMIT 0,10   [ RunTime:0.0004s ]
+SQL: SELECT `menu_id`,`name` FROM `cms_menu` WHERE `status` = 1 AND `type` = 0 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000153s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000254s ]
+NOTIC: [8] Undefined variable: menu_id D:\phpStudy\WWW\TPblog\blog\Runtime\Cache\Admin\391c64d00658b055f3a6b536840d00ed.php 第 120 行.
+NOTIC: [8] Undefined variable: menu_id D:\phpStudy\WWW\TPblog\blog\Runtime\Cache\Admin\391c64d00658b055f3a6b536840d00ed.php 第 120 行.
+NOTIC: [8] Undefined variable: menu_id D:\phpStudy\WWW\TPblog\blog\Runtime\Cache\Admin\391c64d00658b055f3a6b536840d00ed.php 第 120 行.
+NOTIC: [8] Undefined variable: menu_id D:\phpStudy\WWW\TPblog\blog\Runtime\Cache\Admin\391c64d00658b055f3a6b536840d00ed.php 第 120 行.
+NOTIC: [8] Undefined variable: menu_id D:\phpStudy\WWW\TPblog\blog\Runtime\Cache\Admin\391c64d00658b055f3a6b536840d00ed.php 第 120 行.
+NOTIC: [8] Undefined variable: menu_id D:\phpStudy\WWW\TPblog\blog\Runtime\Cache\Admin\391c64d00658b055f3a6b536840d00ed.php 第 120 行.
+NOTIC: [8] Undefined variable: menu_id D:\phpStudy\WWW\TPblog\blog\Runtime\Cache\Admin\391c64d00658b055f3a6b536840d00ed.php 第 120 行.
+NOTIC: [8] Undefined variable: menu_id D:\phpStudy\WWW\TPblog\blog\Runtime\Cache\Admin\391c64d00658b055f3a6b536840d00ed.php 第 120 行.
+NOTIC: [8] Undefined variable: title D:\phpStudy\WWW\TPblog\blog\Runtime\Cache\Admin\391c64d00658b055f3a6b536840d00ed.php 第 128 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.139395s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.139506s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000866s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000946s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001021s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001125s ]
+
+[ 2017-09-01T16:35:21+08:00 ] 127.0.0.1 /admin.php?c=content
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000645s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001275s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001387s ]
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0316s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: title D:\phpStudy\WWW\TPblog\blog\Admin\Controller\ContentController.class.php 第 11 行.
+NOTIC: [8] Undefined index: catid D:\phpStudy\WWW\TPblog\blog\Admin\Controller\ContentController.class.php 第 15 行.
+NOTIC: [8] Undefined index: pageSize D:\phpStudy\WWW\TPblog\blog\Admin\Controller\ContentController.class.php 第 20 行.
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\TPblog\blog\Admin\Controller\ContentController.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0282s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` <> -1 ORDER BY listorder desc,news_id desc LIMIT 0,4   [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_news` WHERE `status` <> -1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `cms_position` [ RunTime:0.0283s ]
+SQL: SELECT * FROM `cms_position` WHERE `status` <> -1 ORDER BY id desc LIMIT 0,10   [ RunTime:0.0005s ]
+SQL: SELECT `menu_id`,`name` FROM `cms_menu` WHERE `status` = 1 AND `type` = 0 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000209s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000332s ]
+NOTIC: [8] Undefined variable: menu_id D:\phpStudy\WWW\TPblog\blog\Runtime\Cache\Admin\391c64d00658b055f3a6b536840d00ed.php 第 120 行.
+NOTIC: [8] Undefined variable: menu_id D:\phpStudy\WWW\TPblog\blog\Runtime\Cache\Admin\391c64d00658b055f3a6b536840d00ed.php 第 120 行.
+NOTIC: [8] Undefined variable: menu_id D:\phpStudy\WWW\TPblog\blog\Runtime\Cache\Admin\391c64d00658b055f3a6b536840d00ed.php 第 120 行.
+NOTIC: [8] Undefined variable: menu_id D:\phpStudy\WWW\TPblog\blog\Runtime\Cache\Admin\391c64d00658b055f3a6b536840d00ed.php 第 120 行.
+NOTIC: [8] Undefined variable: menu_id D:\phpStudy\WWW\TPblog\blog\Runtime\Cache\Admin\391c64d00658b055f3a6b536840d00ed.php 第 120 行.
+NOTIC: [8] Undefined variable: menu_id D:\phpStudy\WWW\TPblog\blog\Runtime\Cache\Admin\391c64d00658b055f3a6b536840d00ed.php 第 120 行.
+NOTIC: [8] Undefined variable: menu_id D:\phpStudy\WWW\TPblog\blog\Runtime\Cache\Admin\391c64d00658b055f3a6b536840d00ed.php 第 120 行.
+NOTIC: [8] Undefined variable: menu_id D:\phpStudy\WWW\TPblog\blog\Runtime\Cache\Admin\391c64d00658b055f3a6b536840d00ed.php 第 120 行.
+NOTIC: [8] Undefined variable: title D:\phpStudy\WWW\TPblog\blog\Runtime\Cache\Admin\391c64d00658b055f3a6b536840d00ed.php 第 128 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.142699s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.142815s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000873s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000989s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001966s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002086s ]
+
+[ 2017-09-01T16:37:33+08:00 ] 127.0.0.1 /admin.php?c=content
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000898s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001763s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001949s ]
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0345s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: title D:\phpStudy\WWW\TPblog\blog\Admin\Controller\ContentController.class.php 第 11 行.
+NOTIC: [8] Undefined index: catid D:\phpStudy\WWW\TPblog\blog\Admin\Controller\ContentController.class.php 第 15 行.
+NOTIC: [8] Undefined index: pageSize D:\phpStudy\WWW\TPblog\blog\Admin\Controller\ContentController.class.php 第 20 行.
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\TPblog\blog\Admin\Controller\ContentController.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0285s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` <> -1 ORDER BY listorder desc,news_id desc LIMIT 0,4   [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_news` WHERE `status` <> -1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `cms_position` [ RunTime:0.0294s ]
+SQL: SELECT * FROM `cms_position` WHERE `status` <> -1 ORDER BY id desc LIMIT 0,10   [ RunTime:0.0004s ]
+SQL: SELECT `menu_id`,`name` FROM `cms_menu` WHERE `status` = 1 AND `type` = 0 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000169s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000273s ]
+NOTIC: [8] Undefined variable: menu_id D:\phpStudy\WWW\TPblog\blog\Runtime\Cache\Admin\391c64d00658b055f3a6b536840d00ed.php 第 120 行.
+NOTIC: [8] Undefined variable: menu_id D:\phpStudy\WWW\TPblog\blog\Runtime\Cache\Admin\391c64d00658b055f3a6b536840d00ed.php 第 120 行.
+NOTIC: [8] Undefined variable: menu_id D:\phpStudy\WWW\TPblog\blog\Runtime\Cache\Admin\391c64d00658b055f3a6b536840d00ed.php 第 120 行.
+NOTIC: [8] Undefined variable: menu_id D:\phpStudy\WWW\TPblog\blog\Runtime\Cache\Admin\391c64d00658b055f3a6b536840d00ed.php 第 120 行.
+NOTIC: [8] Undefined variable: menu_id D:\phpStudy\WWW\TPblog\blog\Runtime\Cache\Admin\391c64d00658b055f3a6b536840d00ed.php 第 120 行.
+NOTIC: [8] Undefined variable: menu_id D:\phpStudy\WWW\TPblog\blog\Runtime\Cache\Admin\391c64d00658b055f3a6b536840d00ed.php 第 120 行.
+NOTIC: [8] Undefined variable: menu_id D:\phpStudy\WWW\TPblog\blog\Runtime\Cache\Admin\391c64d00658b055f3a6b536840d00ed.php 第 120 行.
+NOTIC: [8] Undefined variable: menu_id D:\phpStudy\WWW\TPblog\blog\Runtime\Cache\Admin\391c64d00658b055f3a6b536840d00ed.php 第 120 行.
+NOTIC: [8] Undefined variable: title D:\phpStudy\WWW\TPblog\blog\Runtime\Cache\Admin\391c64d00658b055f3a6b536840d00ed.php 第 128 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.138023s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.138158s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003305s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003456s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001232s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001359s ]
+
+[ 2017-09-01T16:37:50+08:00 ] 127.0.0.1 /admin.php?c=content&a=edit&id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000981s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002569s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002862s ]
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0364s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0280s ]
+SQL: SELECT * FROM `cms_news` WHERE ( news_id=1 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `cms_news_content` [ RunTime:0.0322s ]
+SQL: SELECT * FROM `cms_news_content` WHERE ( news_id=1 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `menu_id`,`name` FROM `cms_menu` WHERE `status` = 1 AND `type` = 0 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000146s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000256s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.141368s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.141488s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000965s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001062s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001453s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001572s ]
+
+[ 2017-09-01T16:37:59+08:00 ] 127.0.0.1 /admin.php?c=content
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000797s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001311s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001482s ]
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0376s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: title D:\phpStudy\WWW\TPblog\blog\Admin\Controller\ContentController.class.php 第 11 行.
+NOTIC: [8] Undefined index: catid D:\phpStudy\WWW\TPblog\blog\Admin\Controller\ContentController.class.php 第 15 行.
+NOTIC: [8] Undefined index: pageSize D:\phpStudy\WWW\TPblog\blog\Admin\Controller\ContentController.class.php 第 20 行.
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\TPblog\blog\Admin\Controller\ContentController.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0284s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` <> -1 ORDER BY listorder desc,news_id desc LIMIT 0,4   [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_news` WHERE `status` <> -1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `cms_position` [ RunTime:0.0265s ]
+SQL: SELECT * FROM `cms_position` WHERE `status` <> -1 ORDER BY id desc LIMIT 0,10   [ RunTime:0.0005s ]
+SQL: SELECT `menu_id`,`name` FROM `cms_menu` WHERE `status` = 1 AND `type` = 0 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000179s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000325s ]
+NOTIC: [8] Undefined variable: menu_id D:\phpStudy\WWW\TPblog\blog\Runtime\Cache\Admin\391c64d00658b055f3a6b536840d00ed.php 第 120 行.
+NOTIC: [8] Undefined variable: menu_id D:\phpStudy\WWW\TPblog\blog\Runtime\Cache\Admin\391c64d00658b055f3a6b536840d00ed.php 第 120 行.
+NOTIC: [8] Undefined variable: menu_id D:\phpStudy\WWW\TPblog\blog\Runtime\Cache\Admin\391c64d00658b055f3a6b536840d00ed.php 第 120 行.
+NOTIC: [8] Undefined variable: menu_id D:\phpStudy\WWW\TPblog\blog\Runtime\Cache\Admin\391c64d00658b055f3a6b536840d00ed.php 第 120 行.
+NOTIC: [8] Undefined variable: menu_id D:\phpStudy\WWW\TPblog\blog\Runtime\Cache\Admin\391c64d00658b055f3a6b536840d00ed.php 第 120 行.
+NOTIC: [8] Undefined variable: menu_id D:\phpStudy\WWW\TPblog\blog\Runtime\Cache\Admin\391c64d00658b055f3a6b536840d00ed.php 第 120 行.
+NOTIC: [8] Undefined variable: menu_id D:\phpStudy\WWW\TPblog\blog\Runtime\Cache\Admin\391c64d00658b055f3a6b536840d00ed.php 第 120 行.
+NOTIC: [8] Undefined variable: menu_id D:\phpStudy\WWW\TPblog\blog\Runtime\Cache\Admin\391c64d00658b055f3a6b536840d00ed.php 第 120 行.
+NOTIC: [8] Undefined variable: title D:\phpStudy\WWW\TPblog\blog\Runtime\Cache\Admin\391c64d00658b055f3a6b536840d00ed.php 第 128 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.133407s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.133509s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000538s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000645s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000888s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000991s ]
+
+[ 2017-09-01T16:38:55+08:00 ] 127.0.0.1 /admin.php?c=content
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001383s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004272s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004755s ]
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0426s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: title D:\phpStudy\WWW\TPblog\blog\Admin\Controller\ContentController.class.php 第 11 行.
+NOTIC: [8] Undefined index: catid D:\phpStudy\WWW\TPblog\blog\Admin\Controller\ContentController.class.php 第 15 行.
+NOTIC: [8] Undefined index: pageSize D:\phpStudy\WWW\TPblog\blog\Admin\Controller\ContentController.class.php 第 20 行.
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\TPblog\blog\Admin\Controller\ContentController.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0289s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` <> -1 ORDER BY listorder desc,news_id desc LIMIT 0,4   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_news` WHERE `status` <> -1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `cms_position` [ RunTime:0.0270s ]
+SQL: SELECT * FROM `cms_position` WHERE `status` <> -1 ORDER BY id desc LIMIT 0,10   [ RunTime:0.0005s ]
+SQL: SELECT `menu_id`,`name` FROM `cms_menu` WHERE `status` = 1 AND `type` = 0 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000200s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000338s ]
+NOTIC: [8] Undefined variable: menu_id D:\phpStudy\WWW\TPblog\blog\Runtime\Cache\Admin\391c64d00658b055f3a6b536840d00ed.php 第 120 行.
+NOTIC: [8] Undefined variable: menu_id D:\phpStudy\WWW\TPblog\blog\Runtime\Cache\Admin\391c64d00658b055f3a6b536840d00ed.php 第 120 行.
+NOTIC: [8] Undefined variable: menu_id D:\phpStudy\WWW\TPblog\blog\Runtime\Cache\Admin\391c64d00658b055f3a6b536840d00ed.php 第 120 行.
+NOTIC: [8] Undefined variable: menu_id D:\phpStudy\WWW\TPblog\blog\Runtime\Cache\Admin\391c64d00658b055f3a6b536840d00ed.php 第 120 行.
+NOTIC: [8] Undefined variable: menu_id D:\phpStudy\WWW\TPblog\blog\Runtime\Cache\Admin\391c64d00658b055f3a6b536840d00ed.php 第 120 行.
+NOTIC: [8] Undefined variable: menu_id D:\phpStudy\WWW\TPblog\blog\Runtime\Cache\Admin\391c64d00658b055f3a6b536840d00ed.php 第 120 行.
+NOTIC: [8] Undefined variable: menu_id D:\phpStudy\WWW\TPblog\blog\Runtime\Cache\Admin\391c64d00658b055f3a6b536840d00ed.php 第 120 行.
+NOTIC: [8] Undefined variable: menu_id D:\phpStudy\WWW\TPblog\blog\Runtime\Cache\Admin\391c64d00658b055f3a6b536840d00ed.php 第 120 行.
+NOTIC: [8] Undefined variable: title D:\phpStudy\WWW\TPblog\blog\Runtime\Cache\Admin\391c64d00658b055f3a6b536840d00ed.php 第 128 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.138201s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.138364s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000506s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000604s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001074s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001231s ]
+
+[ 2017-09-01T16:39:44+08:00 ] 127.0.0.1 /admin.php?c=content
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000819s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001098s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001230s ]
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0450s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: title D:\phpStudy\WWW\TPblog\blog\Admin\Controller\ContentController.class.php 第 11 行.
+NOTIC: [8] Undefined index: catid D:\phpStudy\WWW\TPblog\blog\Admin\Controller\ContentController.class.php 第 15 行.
+NOTIC: [8] Undefined index: pageSize D:\phpStudy\WWW\TPblog\blog\Admin\Controller\ContentController.class.php 第 20 行.
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\TPblog\blog\Admin\Controller\ContentController.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0264s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` <> -1 ORDER BY listorder desc,news_id desc LIMIT 0,4   [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_news` WHERE `status` <> -1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `cms_position` [ RunTime:0.0271s ]
+SQL: SELECT * FROM `cms_position` WHERE `status` <> -1 ORDER BY id desc LIMIT 0,10   [ RunTime:0.0004s ]
+SQL: SELECT `menu_id`,`name` FROM `cms_menu` WHERE `status` = 1 AND `type` = 0 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000165s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000272s ]
+NOTIC: [8] Undefined variable: menu_id D:\phpStudy\WWW\TPblog\blog\Runtime\Cache\Admin\391c64d00658b055f3a6b536840d00ed.php 第 120 行.
+NOTIC: [8] Undefined variable: menu_id D:\phpStudy\WWW\TPblog\blog\Runtime\Cache\Admin\391c64d00658b055f3a6b536840d00ed.php 第 120 行.
+NOTIC: [8] Undefined variable: menu_id D:\phpStudy\WWW\TPblog\blog\Runtime\Cache\Admin\391c64d00658b055f3a6b536840d00ed.php 第 120 行.
+NOTIC: [8] Undefined variable: menu_id D:\phpStudy\WWW\TPblog\blog\Runtime\Cache\Admin\391c64d00658b055f3a6b536840d00ed.php 第 120 行.
+NOTIC: [8] Undefined variable: menu_id D:\phpStudy\WWW\TPblog\blog\Runtime\Cache\Admin\391c64d00658b055f3a6b536840d00ed.php 第 120 行.
+NOTIC: [8] Undefined variable: menu_id D:\phpStudy\WWW\TPblog\blog\Runtime\Cache\Admin\391c64d00658b055f3a6b536840d00ed.php 第 120 行.
+NOTIC: [8] Undefined variable: menu_id D:\phpStudy\WWW\TPblog\blog\Runtime\Cache\Admin\391c64d00658b055f3a6b536840d00ed.php 第 120 行.
+NOTIC: [8] Undefined variable: menu_id D:\phpStudy\WWW\TPblog\blog\Runtime\Cache\Admin\391c64d00658b055f3a6b536840d00ed.php 第 120 行.
+NOTIC: [8] Undefined variable: title D:\phpStudy\WWW\TPblog\blog\Runtime\Cache\Admin\391c64d00658b055f3a6b536840d00ed.php 第 128 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.134412s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.134511s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000414s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000496s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000699s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000776s ]
+
+[ 2017-09-01T16:41:33+08:00 ] 127.0.0.1 /admin.php?c=content
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000931s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001207s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001322s ]
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0326s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: title D:\phpStudy\WWW\TPblog\blog\Admin\Controller\ContentController.class.php 第 11 行.
+NOTIC: [8] Undefined index: catid D:\phpStudy\WWW\TPblog\blog\Admin\Controller\ContentController.class.php 第 15 行.
+NOTIC: [8] Undefined index: pageSize D:\phpStudy\WWW\TPblog\blog\Admin\Controller\ContentController.class.php 第 20 行.
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\TPblog\blog\Admin\Controller\ContentController.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0279s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` <> -1 ORDER BY listorder desc,news_id desc LIMIT 0,4   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_news` WHERE `status` <> -1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `cms_position` [ RunTime:0.0273s ]
+SQL: SELECT * FROM `cms_position` WHERE `status` <> -1 ORDER BY id desc LIMIT 0,10   [ RunTime:0.0004s ]
+SQL: SELECT `menu_id`,`name` FROM `cms_menu` WHERE `status` = 1 AND `type` = 0 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0035s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000154s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000252s ]
+NOTIC: [8] Undefined variable: menu_id D:\phpStudy\WWW\TPblog\blog\Runtime\Cache\Admin\391c64d00658b055f3a6b536840d00ed.php 第 120 行.
+NOTIC: [8] Undefined variable: menu_id D:\phpStudy\WWW\TPblog\blog\Runtime\Cache\Admin\391c64d00658b055f3a6b536840d00ed.php 第 120 行.
+NOTIC: [8] Undefined variable: menu_id D:\phpStudy\WWW\TPblog\blog\Runtime\Cache\Admin\391c64d00658b055f3a6b536840d00ed.php 第 120 行.
+NOTIC: [8] Undefined variable: menu_id D:\phpStudy\WWW\TPblog\blog\Runtime\Cache\Admin\391c64d00658b055f3a6b536840d00ed.php 第 120 行.
+NOTIC: [8] Undefined variable: menu_id D:\phpStudy\WWW\TPblog\blog\Runtime\Cache\Admin\391c64d00658b055f3a6b536840d00ed.php 第 120 行.
+NOTIC: [8] Undefined variable: menu_id D:\phpStudy\WWW\TPblog\blog\Runtime\Cache\Admin\391c64d00658b055f3a6b536840d00ed.php 第 120 行.
+NOTIC: [8] Undefined variable: menu_id D:\phpStudy\WWW\TPblog\blog\Runtime\Cache\Admin\391c64d00658b055f3a6b536840d00ed.php 第 120 行.
+NOTIC: [8] Undefined variable: menu_id D:\phpStudy\WWW\TPblog\blog\Runtime\Cache\Admin\391c64d00658b055f3a6b536840d00ed.php 第 120 行.
+NOTIC: [8] Undefined variable: title D:\phpStudy\WWW\TPblog\blog\Runtime\Cache\Admin\391c64d00658b055f3a6b536840d00ed.php 第 128 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.136156s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.136289s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000885s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000998s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001270s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001368s ]
+
+[ 2017-09-01T16:42:11+08:00 ] 127.0.0.1 /admin.php?c=content
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000594s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001006s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001168s ]
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0565s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: title D:\phpStudy\WWW\TPblog\blog\Admin\Controller\ContentController.class.php 第 11 行.
+NOTIC: [8] Undefined index: catid D:\phpStudy\WWW\TPblog\blog\Admin\Controller\ContentController.class.php 第 15 行.
+NOTIC: [8] Undefined index: pageSize D:\phpStudy\WWW\TPblog\blog\Admin\Controller\ContentController.class.php 第 20 行.
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\TPblog\blog\Admin\Controller\ContentController.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0384s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` <> -1 ORDER BY listorder desc,news_id desc LIMIT 0,4   [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_news` WHERE `status` <> -1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `cms_position` [ RunTime:0.0398s ]
+SQL: SELECT * FROM `cms_position` WHERE `status` <> -1 ORDER BY id desc LIMIT 0,10   [ RunTime:0.0006s ]
+SQL: SELECT `menu_id`,`name` FROM `cms_menu` WHERE `status` = 1 AND `type` = 0 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000220s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000444s ]
+NOTIC: [8] Undefined variable: menu_id D:\phpStudy\WWW\TPblog\blog\Runtime\Cache\Admin\391c64d00658b055f3a6b536840d00ed.php 第 120 行.
+NOTIC: [8] Undefined variable: menu_id D:\phpStudy\WWW\TPblog\blog\Runtime\Cache\Admin\391c64d00658b055f3a6b536840d00ed.php 第 120 行.
+NOTIC: [8] Undefined variable: menu_id D:\phpStudy\WWW\TPblog\blog\Runtime\Cache\Admin\391c64d00658b055f3a6b536840d00ed.php 第 120 行.
+NOTIC: [8] Undefined variable: menu_id D:\phpStudy\WWW\TPblog\blog\Runtime\Cache\Admin\391c64d00658b055f3a6b536840d00ed.php 第 120 行.
+NOTIC: [8] Undefined variable: menu_id D:\phpStudy\WWW\TPblog\blog\Runtime\Cache\Admin\391c64d00658b055f3a6b536840d00ed.php 第 120 行.
+NOTIC: [8] Undefined variable: menu_id D:\phpStudy\WWW\TPblog\blog\Runtime\Cache\Admin\391c64d00658b055f3a6b536840d00ed.php 第 120 行.
+NOTIC: [8] Undefined variable: menu_id D:\phpStudy\WWW\TPblog\blog\Runtime\Cache\Admin\391c64d00658b055f3a6b536840d00ed.php 第 120 行.
+NOTIC: [8] Undefined variable: menu_id D:\phpStudy\WWW\TPblog\blog\Runtime\Cache\Admin\391c64d00658b055f3a6b536840d00ed.php 第 120 行.
+NOTIC: [8] Undefined variable: title D:\phpStudy\WWW\TPblog\blog\Runtime\Cache\Admin\391c64d00658b055f3a6b536840d00ed.php 第 128 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.189559s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.189713s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001420s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001553s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001380s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001563s ]
+
+[ 2017-09-01T16:43:30+08:00 ] 127.0.0.1 /admin.php?c=content
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000948s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000840s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000937s ]
+NOTIC: [8] Undefined variable: module D:\phpStudy\WWW\TPblog\ThinkPHP\Common\functions.php 第 990 行.
+NOTIC: [8] Undefined variable: var D:\phpStudy\WWW\TPblog\ThinkPHP\Common\functions.php 第 990 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given D:\phpStudy\WWW\TPblog\ThinkPHP\Common\functions.php 第 990 行.
+NOTIC: [2] http_build_query() [<a href='function.http-build-query'>function.http-build-query</a>]: Parameter 1 expected to be Array or Object.  Incorrect value given D:\phpStudy\WWW\TPblog\ThinkPHP\Common\functions.php 第 990 行.
+
+[ 2017-09-01T16:43:30+08:00 ] 127.0.0.1 /admin.php?m=&&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000862s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000850s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000957s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000215s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043554s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043681s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000448s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000529s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000874s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000991s ]
+
+[ 2017-09-01T16:43:38+08:00 ] 127.0.0.1 /index.php?m=admin&c=login&a=check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000524s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001004s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001082s ]
+SQL: SHOW COLUMNS FROM `cms_admin` [ RunTime:0.0344s ]
+SQL: SELECT * FROM `cms_admin` WHERE ( username="admin" AND status=1 ) LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2017-09-01T16:43:40+08:00 ] 127.0.0.1 /index.php?m=admin&c=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000961s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001290s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001449s ]
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0478s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000161s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000280s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.068757s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.068915s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000849s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000960s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001311s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001471s ]
+
+[ 2017-09-01T16:43:45+08:00 ] 127.0.0.1 /admin.php?c=content
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000605s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001828s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001989s ]
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0357s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: title D:\phpStudy\WWW\TPblog\blog\Admin\Controller\ContentController.class.php 第 11 行.
+NOTIC: [8] Undefined index: catid D:\phpStudy\WWW\TPblog\blog\Admin\Controller\ContentController.class.php 第 15 行.
+NOTIC: [8] Undefined index: pageSize D:\phpStudy\WWW\TPblog\blog\Admin\Controller\ContentController.class.php 第 20 行.
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\TPblog\blog\Admin\Controller\ContentController.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0282s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` <> -1 ORDER BY listorder desc,news_id desc LIMIT 0,4   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_news` WHERE `status` <> -1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `cms_position` [ RunTime:0.0280s ]
+SQL: SELECT * FROM `cms_position` WHERE `status` <> -1 ORDER BY id desc LIMIT 0,10   [ RunTime:0.0005s ]
+SQL: SELECT `menu_id`,`name` FROM `cms_menu` WHERE `status` = 1 AND `type` = 0 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000152s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000287s ]
+NOTIC: [8] Undefined variable: menu_id D:\phpStudy\WWW\TPblog\blog\Runtime\Cache\Admin\391c64d00658b055f3a6b536840d00ed.php 第 120 行.
+NOTIC: [8] Undefined variable: menu_id D:\phpStudy\WWW\TPblog\blog\Runtime\Cache\Admin\391c64d00658b055f3a6b536840d00ed.php 第 120 行.
+NOTIC: [8] Undefined variable: menu_id D:\phpStudy\WWW\TPblog\blog\Runtime\Cache\Admin\391c64d00658b055f3a6b536840d00ed.php 第 120 行.
+NOTIC: [8] Undefined variable: menu_id D:\phpStudy\WWW\TPblog\blog\Runtime\Cache\Admin\391c64d00658b055f3a6b536840d00ed.php 第 120 行.
+NOTIC: [8] Undefined variable: menu_id D:\phpStudy\WWW\TPblog\blog\Runtime\Cache\Admin\391c64d00658b055f3a6b536840d00ed.php 第 120 行.
+NOTIC: [8] Undefined variable: menu_id D:\phpStudy\WWW\TPblog\blog\Runtime\Cache\Admin\391c64d00658b055f3a6b536840d00ed.php 第 120 行.
+NOTIC: [8] Undefined variable: menu_id D:\phpStudy\WWW\TPblog\blog\Runtime\Cache\Admin\391c64d00658b055f3a6b536840d00ed.php 第 120 行.
+NOTIC: [8] Undefined variable: menu_id D:\phpStudy\WWW\TPblog\blog\Runtime\Cache\Admin\391c64d00658b055f3a6b536840d00ed.php 第 120 行.
+NOTIC: [8] Undefined variable: title D:\phpStudy\WWW\TPblog\blog\Runtime\Cache\Admin\391c64d00658b055f3a6b536840d00ed.php 第 128 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.134890s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.135011s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001671s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001795s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002218s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002384s ]
+
+[ 2017-09-01T16:44:23+08:00 ] 127.0.0.1 /admin.php?c=content
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000829s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001716s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001861s ]
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0396s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: title D:\phpStudy\WWW\TPblog\blog\Admin\Controller\ContentController.class.php 第 11 行.
+NOTIC: [8] Undefined index: catid D:\phpStudy\WWW\TPblog\blog\Admin\Controller\ContentController.class.php 第 15 行.
+NOTIC: [8] Undefined index: pageSize D:\phpStudy\WWW\TPblog\blog\Admin\Controller\ContentController.class.php 第 20 行.
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\TPblog\blog\Admin\Controller\ContentController.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0316s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` <> -1 ORDER BY listorder desc,news_id desc LIMIT 0,4   [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_news` WHERE `status` <> -1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `cms_position` [ RunTime:0.0345s ]
+SQL: SELECT * FROM `cms_position` WHERE `status` <> -1 ORDER BY id desc LIMIT 0,10   [ RunTime:0.0004s ]
+SQL: SELECT `menu_id`,`name` FROM `cms_menu` WHERE `status` = 1 AND `type` = 0 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000177s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000295s ]
+NOTIC: [8] Undefined variable: menu_id D:\phpStudy\WWW\TPblog\blog\Runtime\Cache\Admin\391c64d00658b055f3a6b536840d00ed.php 第 120 行.
+NOTIC: [8] Undefined variable: menu_id D:\phpStudy\WWW\TPblog\blog\Runtime\Cache\Admin\391c64d00658b055f3a6b536840d00ed.php 第 120 行.
+NOTIC: [8] Undefined variable: menu_id D:\phpStudy\WWW\TPblog\blog\Runtime\Cache\Admin\391c64d00658b055f3a6b536840d00ed.php 第 120 行.
+NOTIC: [8] Undefined variable: menu_id D:\phpStudy\WWW\TPblog\blog\Runtime\Cache\Admin\391c64d00658b055f3a6b536840d00ed.php 第 120 行.
+NOTIC: [8] Undefined variable: menu_id D:\phpStudy\WWW\TPblog\blog\Runtime\Cache\Admin\391c64d00658b055f3a6b536840d00ed.php 第 120 行.
+NOTIC: [8] Undefined variable: menu_id D:\phpStudy\WWW\TPblog\blog\Runtime\Cache\Admin\391c64d00658b055f3a6b536840d00ed.php 第 120 行.
+NOTIC: [8] Undefined variable: menu_id D:\phpStudy\WWW\TPblog\blog\Runtime\Cache\Admin\391c64d00658b055f3a6b536840d00ed.php 第 120 行.
+NOTIC: [8] Undefined variable: menu_id D:\phpStudy\WWW\TPblog\blog\Runtime\Cache\Admin\391c64d00658b055f3a6b536840d00ed.php 第 120 行.
+NOTIC: [8] Undefined variable: title D:\phpStudy\WWW\TPblog\blog\Runtime\Cache\Admin\391c64d00658b055f3a6b536840d00ed.php 第 128 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.140292s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.140451s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000517s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000601s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000737s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000830s ]
+
+[ 2017-09-01T17:00:05+08:00 ] 127.0.0.1 /admin.php?c=content
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000570s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001295s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001429s ]
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0383s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: title D:\phpStudy\WWW\TPblog\blog\Admin\Controller\ContentController.class.php 第 11 行.
+NOTIC: [8] Undefined index: catid D:\phpStudy\WWW\TPblog\blog\Admin\Controller\ContentController.class.php 第 15 行.
+NOTIC: [8] Undefined index: pageSize D:\phpStudy\WWW\TPblog\blog\Admin\Controller\ContentController.class.php 第 20 行.
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\TPblog\blog\Admin\Controller\ContentController.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0274s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` <> -1 ORDER BY listorder desc,news_id desc LIMIT 0,4   [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_news` WHERE `status` <> -1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `cms_position` [ RunTime:0.0293s ]
+SQL: SELECT * FROM `cms_position` WHERE `status` <> -1 ORDER BY id desc LIMIT 0,10   [ RunTime:0.0004s ]
+SQL: SELECT `menu_id`,`name` FROM `cms_menu` WHERE `status` = 1 AND `type` = 0 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000149s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000258s ]
+NOTIC: [8] Undefined variable: menu_id D:\phpStudy\WWW\TPblog\blog\Runtime\Cache\Admin\391c64d00658b055f3a6b536840d00ed.php 第 120 行.
+NOTIC: [8] Undefined variable: menu_id D:\phpStudy\WWW\TPblog\blog\Runtime\Cache\Admin\391c64d00658b055f3a6b536840d00ed.php 第 120 行.
+NOTIC: [8] Undefined variable: menu_id D:\phpStudy\WWW\TPblog\blog\Runtime\Cache\Admin\391c64d00658b055f3a6b536840d00ed.php 第 120 行.
+NOTIC: [8] Undefined variable: menu_id D:\phpStudy\WWW\TPblog\blog\Runtime\Cache\Admin\391c64d00658b055f3a6b536840d00ed.php 第 120 行.
+NOTIC: [8] Undefined variable: menu_id D:\phpStudy\WWW\TPblog\blog\Runtime\Cache\Admin\391c64d00658b055f3a6b536840d00ed.php 第 120 行.
+NOTIC: [8] Undefined variable: menu_id D:\phpStudy\WWW\TPblog\blog\Runtime\Cache\Admin\391c64d00658b055f3a6b536840d00ed.php 第 120 行.
+NOTIC: [8] Undefined variable: menu_id D:\phpStudy\WWW\TPblog\blog\Runtime\Cache\Admin\391c64d00658b055f3a6b536840d00ed.php 第 120 行.
+NOTIC: [8] Undefined variable: menu_id D:\phpStudy\WWW\TPblog\blog\Runtime\Cache\Admin\391c64d00658b055f3a6b536840d00ed.php 第 120 行.
+NOTIC: [8] Undefined variable: title D:\phpStudy\WWW\TPblog\blog\Runtime\Cache\Admin\391c64d00658b055f3a6b536840d00ed.php 第 128 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.136548s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.136668s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000927s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001079s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001698s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001852s ]
+
+[ 2017-09-01T17:00:24+08:00 ] 127.0.0.1 /admin.php?c=login&a=loginout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000691s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001054s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001169s ]
+NOTIC: [8] Undefined variable: module D:\phpStudy\WWW\TPblog\ThinkPHP\Common\functions.php 第 990 行.
+NOTIC: [8] Undefined variable: var D:\phpStudy\WWW\TPblog\ThinkPHP\Common\functions.php 第 990 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given D:\phpStudy\WWW\TPblog\ThinkPHP\Common\functions.php 第 990 行.
+NOTIC: [2] http_build_query() [<a href='function.http-build-query'>function.http-build-query</a>]: Parameter 1 expected to be Array or Object.  Incorrect value given D:\phpStudy\WWW\TPblog\ThinkPHP\Common\functions.php 第 990 行.
+
+[ 2017-09-01T17:00:24+08:00 ] 127.0.0.1 /admin.php?m=&&m=admin&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000514s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000986s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001098s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000188s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013611s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013758s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000442s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000526s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000710s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000799s ]
+
+[ 2017-09-01T17:13:41+08:00 ] 127.0.0.1 /index.php?m=admin&c=login&a=check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000658s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001165s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001275s ]
+SQL: SHOW COLUMNS FROM `cms_admin` [ RunTime:0.0462s ]
+SQL: SELECT * FROM `cms_admin` WHERE ( username="admin" AND status=1 ) LIMIT 1   [ RunTime:0.0007s ]
+
+[ 2017-09-01T17:13:44+08:00 ] 127.0.0.1 /index.php?m=admin&c=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000524s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001314s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001465s ]
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0352s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000132s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000227s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.061441s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.061563s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000600s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000673s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001208s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001318s ]
+
+[ 2017-09-01T17:13:47+08:00 ] 127.0.0.1 /admin.php?c=position
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000454s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000795s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000883s ]
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0456s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\TPblog\blog\Admin\Controller\PositionController.class.php 第 10 行.
+NOTIC: [8] Undefined index: pageSize D:\phpStudy\WWW\TPblog\blog\Admin\Controller\PositionController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `cms_position` [ RunTime:0.0271s ]
+SQL: SELECT * FROM `cms_position` WHERE `status` <> -1 ORDER BY id desc LIMIT 0,2   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_position` WHERE `status` <> -1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000141s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000258s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.099711s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.099840s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000384s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000465s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001421s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001669s ]
+
+[ 2017-09-01T17:13:49+08:00 ] 127.0.0.1 /admin.php?c=positioncontent
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000641s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000731s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000822s ]
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0316s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\TPblog\blog\Admin\Controller\PositioncontentController.class.php 第 23 行.
+NOTIC: [8] Undefined index: pageSize D:\phpStudy\WWW\TPblog\blog\Admin\Controller\PositioncontentController.class.php 第 24 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0284s ]
+NOTIC: [8] Undefined index: position_id D:\phpStudy\WWW\TPblog\blog\Common\Model\PositionContentModel.class.php 第 22 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` <> -1 ORDER BY listorder desc ,id desc LIMIT 0,2   [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_position_content` WHERE `status` <> -1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `cms_position` [ RunTime:0.0273s ]
+SQL: SELECT `id`,`name` FROM `cms_position` WHERE `status` <> -1 ORDER BY id  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000152s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000255s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.130089s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.130241s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000505s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000580s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000741s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000822s ]
+
+[ 2017-09-01T20:09:50+08:00 ] 127.0.0.1 /admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000648s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000943s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001032s ]
+NOTIC: [8] Undefined variable: module D:\phpStudy\WWW\TPblog\ThinkPHP\Common\functions.php 第 990 行.
+NOTIC: [8] Undefined variable: var D:\phpStudy\WWW\TPblog\ThinkPHP\Common\functions.php 第 990 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given D:\phpStudy\WWW\TPblog\ThinkPHP\Common\functions.php 第 990 行.
+NOTIC: [2] http_build_query() [<a href='function.http-build-query'>function.http-build-query</a>]: Parameter 1 expected to be Array or Object.  Incorrect value given D:\phpStudy\WWW\TPblog\ThinkPHP\Common\functions.php 第 990 行.
+
+[ 2017-09-01T20:09:57+08:00 ] 127.0.0.1 /admin.php?m=&&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000744s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000987s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001103s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000188s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044923s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045053s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001046s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001344s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001592s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001777s ]
+
+[ 2017-09-01T20:10:05+08:00 ] 127.0.0.1 /index.php?m=admin&c=login&a=check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000778s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001544s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001670s ]
+SQL: SHOW COLUMNS FROM `cms_admin` [ RunTime:0.0396s ]
+SQL: SELECT * FROM `cms_admin` WHERE ( username="admin" AND status=1 ) LIMIT 1   [ RunTime:0.0008s ]
+
+[ 2017-09-01T20:10:08+08:00 ] 127.0.0.1 /index.php?m=admin&c=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000491s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000966s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001079s ]
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0329s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000145s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000339s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.058153s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.058347s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000956s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001215s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001449s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001607s ]
+
+[ 2017-09-01T20:10:59+08:00 ] 127.0.0.1 /admin.php?c=basic
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000756s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000802s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000921s ]
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0321s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000110s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000206s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.113973s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.114128s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000432s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000508s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001392s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001593s ]
+
+[ 2017-09-01T20:11:01+08:00 ] 127.0.0.1 /admin.php?c=basic&a=cache
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000634s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001870s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002389s ]
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0358s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000100s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000204s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.129315s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.129462s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000392s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000468s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000838s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000944s ]
+
+[ 2017-09-01T20:11:06+08:00 ] 127.0.0.1 /admin.php?c=basic&a=cache
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000528s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000700s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000789s ]
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0343s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000101s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000214s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020576s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020749s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000424s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000501s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000731s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000811s ]
+
+[ 2017-09-01T20:41:26+08:00 ] 127.0.0.1 /admin.php?c=basic
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001013s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002495s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002662s ]
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0429s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000142s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000275s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.093842s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.093983s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001124s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001308s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001271s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001364s ]
+
+[ 2017-09-01T21:03:33+08:00 ] 127.0.0.1 /admin.php?c=user
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001185s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001650s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001798s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001630s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001778s ]
+
+[ 2017-09-01T23:12:50+08:00 ] 127.0.0.1 /admin.php?c-admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.024856s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.043465s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.043678s ]
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0735s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000133s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000235s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.383743s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.383987s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.028997s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.029120s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.020013s ]
+INFO: [ app_end ] --END-- [ RunTime:0.020228s ]
+
+[ 2017-09-01T23:12:54+08:00 ] 127.0.0.1 /admin.php?c=admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000780s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002469s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002616s ]
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0475s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000115s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000220s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.069420s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.069585s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001007s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001168s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001508s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001625s ]
+
+[ 2017-09-01T23:13:36+08:00 ] 127.0.0.1 /admin.php?c=admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000941s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001572s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001705s ]
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0456s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000144s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000266s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.073555s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.073815s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003347s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003476s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001818s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001993s ]
+
+[ 2017-09-01T23:14:00+08:00 ] 127.0.0.1 /admin.php?c=admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000824s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002216s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002489s ]
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0493s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000131s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000254s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.087918s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.088176s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001040s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001198s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002051s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002212s ]
+
+[ 2017-09-01T23:14:19+08:00 ] 127.0.0.1 /admin.php?c=admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001052s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001611s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001713s ]
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0335s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000105s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000200s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.059020s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.059202s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002891s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003031s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001724s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001865s ]
+
+[ 2017-09-01T23:15:59+08:00 ] 127.0.0.1 /admin.php?c=admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001187s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001873s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002039s ]
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0376s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000111s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000209s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.066707s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.066898s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000854s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000943s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001288s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001408s ]
+
+[ 2017-09-01T23:16:02+08:00 ] 127.0.0.1 /admin.php?c=admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001033s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002499s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002707s ]
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0498s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000130s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000253s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.074337s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.074553s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003113s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003241s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001811s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001954s ]
+
+[ 2017-09-01T23:19:22+08:00 ] 127.0.0.1 /admin.php?c=admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000970s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001527s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001646s ]
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0434s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000106s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000201s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.064134s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.064279s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000869s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000961s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001169s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001257s ]
+
+[ 2017-09-01T23:36:59+08:00 ] 127.0.0.1 /admin.php?c=admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001038s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001487s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001633s ]
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0398s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `cms_admin` [ RunTime:0.0289s ]
+SQL: SELECT * FROM `cms_admin` WHERE ( status=1 )  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000172s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000294s ]
+NOTIC: [8] Undefined variable: 1502364213 D:\phpStudy\WWW\TPblog\blog\Runtime\Cache\Admin\9a28be14cd1f2dfe588e0deee7276849.php 第 136 行.
+NOTIC: [8] Undefined variable: new D:\phpStudy\WWW\TPblog\blog\Runtime\Cache\Admin\9a28be14cd1f2dfe588e0deee7276849.php 第 139 行.
+NOTIC: [8] Undefined variable: 1 D:\phpStudy\WWW\TPblog\blog\Runtime\Cache\Admin\9a28be14cd1f2dfe588e0deee7276849.php 第 145 行.
+NOTIC: [8] Undefined variable: 1502364213 D:\phpStudy\WWW\TPblog\blog\Runtime\Cache\Admin\9a28be14cd1f2dfe588e0deee7276849.php 第 136 行.
+NOTIC: [8] Undefined variable: new D:\phpStudy\WWW\TPblog\blog\Runtime\Cache\Admin\9a28be14cd1f2dfe588e0deee7276849.php 第 139 行.
+NOTIC: [8] Undefined variable: 2 D:\phpStudy\WWW\TPblog\blog\Runtime\Cache\Admin\9a28be14cd1f2dfe588e0deee7276849.php 第 145 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.089103s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.089260s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000925s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001373s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001467s ]
+
+[ 2017-09-01T23:38:21+08:00 ] 127.0.0.1 /admin.php?c=admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000869s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004700s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004938s ]
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0458s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `cms_admin` [ RunTime:0.0289s ]
+SQL: SELECT * FROM `cms_admin` WHERE ( status=1 )  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000183s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000313s ]
+NOTIC: [8] Undefined variable: 1502364213 D:\phpStudy\WWW\TPblog\blog\Runtime\Cache\Admin\9a28be14cd1f2dfe588e0deee7276849.php 第 136 行.
+NOTIC: [8] Undefined variable: new D:\phpStudy\WWW\TPblog\blog\Runtime\Cache\Admin\9a28be14cd1f2dfe588e0deee7276849.php 第 139 行.
+NOTIC: [8] Undefined variable: 1 D:\phpStudy\WWW\TPblog\blog\Runtime\Cache\Admin\9a28be14cd1f2dfe588e0deee7276849.php 第 145 行.
+NOTIC: [8] Undefined variable: 1502364213 D:\phpStudy\WWW\TPblog\blog\Runtime\Cache\Admin\9a28be14cd1f2dfe588e0deee7276849.php 第 136 行.
+NOTIC: [8] Undefined variable: new D:\phpStudy\WWW\TPblog\blog\Runtime\Cache\Admin\9a28be14cd1f2dfe588e0deee7276849.php 第 139 行.
+NOTIC: [8] Undefined variable: 2 D:\phpStudy\WWW\TPblog\blog\Runtime\Cache\Admin\9a28be14cd1f2dfe588e0deee7276849.php 第 145 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.085120s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.085291s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001535s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001886s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001284s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001368s ]
+
+[ 2017-09-01T23:44:48+08:00 ] 127.0.0.1 /admin.php?c=admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001018s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001743s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001888s ]
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0370s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `cms_admin` [ RunTime:0.0315s ]
+SQL: SELECT * FROM `cms_admin` WHERE ( status=1 )  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000125s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000225s ]
+NOTIC: [8] Undefined variable: 1502364213 D:\phpStudy\WWW\TPblog\blog\Runtime\Cache\Admin\9a28be14cd1f2dfe588e0deee7276849.php 第 136 行.
+NOTIC: [8] Undefined variable: new D:\phpStudy\WWW\TPblog\blog\Runtime\Cache\Admin\9a28be14cd1f2dfe588e0deee7276849.php 第 139 行.
+NOTIC: [8] Undefined variable: 1 D:\phpStudy\WWW\TPblog\blog\Runtime\Cache\Admin\9a28be14cd1f2dfe588e0deee7276849.php 第 145 行.
+NOTIC: [8] Undefined variable: 1502364213 D:\phpStudy\WWW\TPblog\blog\Runtime\Cache\Admin\9a28be14cd1f2dfe588e0deee7276849.php 第 136 行.
+NOTIC: [8] Undefined variable: new D:\phpStudy\WWW\TPblog\blog\Runtime\Cache\Admin\9a28be14cd1f2dfe588e0deee7276849.php 第 139 行.
+NOTIC: [8] Undefined variable: 2 D:\phpStudy\WWW\TPblog\blog\Runtime\Cache\Admin\9a28be14cd1f2dfe588e0deee7276849.php 第 145 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.094683s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.095057s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001578s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001800s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001308s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001410s ]
+
+[ 2017-09-01T23:44:54+08:00 ] 127.0.0.1 /admin.php?c=admin&a=add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002257s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001168s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001280s ]
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0324s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000124s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000255s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.062956s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.063260s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001239s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001372s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001799s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001913s ]
+

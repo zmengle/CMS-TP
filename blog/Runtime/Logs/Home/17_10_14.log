@@ -1,0 +1,15 @@
+[ 2017-10-14T20:16:39+08:00 ] 127.0.0.1 /index.php?c=index&a=getCount
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.028665s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.043641s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.043725s ]
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0529s ]
+SQL: SELECT `menu_id`,`name` FROM `cms_menu` WHERE `status` = 1 AND `type` = 0 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0468s ]
+SQL: SELECT `news_id`,`title`,`description` FROM `cms_news` WHERE `status` = 1 ORDER BY count desc , listorder desc LIMIT 10   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0539s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 3 AND `status` = 1 ORDER BY listorder desc ,id desc  [ RunTime:0.0006s ]
+SQL: SELECT `news_id`,`title`,`thumb`,`status`,`count` FROM `cms_news` WHERE `news_id` IN ('1','10','9','8','7')  [ RunTime:0.0003s ]
+

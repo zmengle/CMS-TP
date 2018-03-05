@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>error</title>
+    <include file="Index/header" />
+</head>
+<body>
+<!-- index -->
+    <!-- nav -->
+    <include file="Index/nav" />
+
+    <div class="container not-found">
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="error-info">
+                <h3>错误页面：<span>{$message}</span></h3>
+                    将于<em class="em3" style="font-size: 24px;">3</em> 秒后跳转到首页，如果失效请使用 <a href="/">手动跳转</a>
+                <p>404 <br/><span style="font-size: 48px;"><i class="fa fa-unlink"></i> NOT FOUND !</span></p>
+                </div>
+                
+               <!--  <i class="fa fa-5x fa-tv"></i>
+               <span class="fa-stack fa-lg">
+                   <i class="fa fa-tv fa-stack-2x">404</i>
+               </span> -->
+            </div>
+        </div>
+    </div>
+    <include file="Index/footer" />
+<!-- js -->
+<script src="../../../../Public/js/jquery-3.2.1.js"></script>
+<script src="../../../../Public/bootstrap/js/bootstrap.js"></script>
+<script>
+    $(function () {
+       var url='/';
+       var time=3;
+       var timer=setInterval(function () {
+           $(".em3").html(time);
+           if(time==0){
+               clearInterval(timer);
+               location.href=url;
+           }
+           time--;
+       },1000);
+    });
+</script>
+</body>
+</html>

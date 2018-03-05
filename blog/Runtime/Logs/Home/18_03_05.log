@@ -1,0 +1,66 @@
+[ 2018-03-05T10:16:33+08:00 ] 127.0.0.1 /index.php?c=index&a=getCount
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.022337s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.026758s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.026849s ]
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0434s ]
+SQL: SELECT `menu_id`,`name` FROM `cms_menu` WHERE `status` = 1 AND `type` = 0 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0405s ]
+SQL: SELECT `news_id`,`title`,`description` FROM `cms_news` WHERE `status` = 1 ORDER BY count desc , listorder desc LIMIT 10   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0402s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 3 AND `status` = 1 ORDER BY listorder desc ,id desc  [ RunTime:0.0006s ]
+SQL: SELECT `news_id`,`title`,`thumb`,`status`,`count` FROM `cms_news` WHERE `news_id` IN ('1','10','9','8','7')  [ RunTime:0.0011s ]
+
+[ 2018-03-05T10:16:40+08:00 ] 127.0.0.1 /index.php?c=cat&catid=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000508s ]
+
+[ 2018-03-05T10:16:46+08:00 ] 127.0.0.1 /index.php?c=cat&catid=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000527s ]
+
+[ 2018-03-05T10:16:49+08:00 ] 127.0.0.1 /index.php?c=cat&catid=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000524s ]
+
+[ 2018-03-05T10:17:02+08:00 ] 127.0.0.1 /index.php?c=detail&news_id=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000518s ]
+
+[ 2018-03-05T10:17:06+08:00 ] 127.0.0.1 /index.php?c=detail&news_id=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000522s ]
+
+[ 2018-03-05T10:20:12+08:00 ] 127.0.0.1 /index.php?c=detail&news_id=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000704s ]
+
+[ 2018-03-05T10:21:59+08:00 ] 127.0.0.1 /index.php?c=index&a=getCount
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000092s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001225s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001328s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001408s ]
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0209s ]
+SQL: SELECT `menu_id`,`name` FROM `cms_menu` WHERE `status` = 1 AND `type` = 0 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0163s ]
+SQL: SELECT `news_id`,`title`,`description` FROM `cms_news` WHERE `status` = 1 ORDER BY count desc , listorder desc LIMIT 10   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0200s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 3 AND `status` = 1 ORDER BY listorder desc ,id desc  [ RunTime:0.0004s ]
+SQL: SELECT `news_id`,`title`,`thumb`,`status`,`count` FROM `cms_news` WHERE `news_id` IN ('1','10','9','8','7')  [ RunTime:0.0003s ]
+
+[ 2018-03-05T10:22:17+08:00 ] 127.0.0.1 /index.php?m=&&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000565s ]
+ERR: 无法加载控制器:Login
+

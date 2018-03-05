@@ -1,0 +1,158 @@
+<include file="Index/header" />
+<body>
+<div id="wrapper">
+
+    <include file="Index/nav" />
+    <div id="page-wrapper" class="content-wrapper py3">
+        <div class="container-fluid pl20">
+            
+            <div class="row">
+                <div class="col-lg-12 mt20">
+                    <ol class="breadcrumb">
+                        <li><i class="fa fa-dashboard"></i><a href="/admin.php?c=content">文章管理</a></li>
+                        <li class="active"><i class="fa fa-table"></i>文章列表</li>
+                    </ol>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 mb20">
+                    <div class="btn-group">
+                        <button class="btn btn-primary dropdown-toggle" type="button" id="button-add" aria-haspopup="true" aria-expanded="false" data-toggle="dropdown"><i class="fa fa-plus fa-lg" aria-hidden="true"></i>添加</button>
+                    </div>
+                </div> 
+            </div>
+            <div class="row">
+                <form action="/admin.php" method="get">
+                    <div class="col-md-3">
+                        <div class="input-group">
+                            <i class="input-group-addon">栏目</i>
+                            <select name="catid" id="catid" class="form-control">
+                                <option value="">全部分类</option>
+                                <volist name="homeMenus" id="homeMenu">
+                                    <option value="{$homeMenu.menu_id}" <if condition="$homeMenu.menu_id eq $menu_id">selected="selected"</if>>{$homeMenu.name}</option>
+                                </volist>
+                            </select>
+                        </div>
+                    </div>
+                    <input type="hidden" name="c" value="content">
+                    <input type="hidden" name="a" value="index">
+                    <div class="col-md-3">
+                        <div class="input-group">
+                            <input type="text" class="form-control" name="title" value="{$title}" placeholder="文章标题">
+                            <i class="input-group-btn">
+                                <button class="btn btn-primary" id="search" type="submit"><i class="fa fa-lg fa-search"></i></button>
+                            </i>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <h3>文章列表</h3>
+                    <div class="table-responsive">
+                        <form id="new_listOrder">
+                            <table class="table table-bordered table-hover new_list">
+                                <thead>
+                                    <tr>
+                                        <th width="10"><input type="checkbox" id="checkall"/></th> <!--全选/全不选-->
+                                        <th width="14">排序</th>
+                                        <th>id</th>
+                                        <th>标题</th>
+                                        <th>栏目</th>
+                                        <th>来源</th>
+                                        <th>封面图</th>
+                                        <th>时间</th>
+                                        <th>状态</th>
+                                        <th>操作</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <volist name="news" id="new">
+                                        <tr>
+                                            <td><input name="pushcheck" type="checkbox" value="{$new.news_id}"></td>
+                                            <td><input size="4" type="text" name="listorder[{$new.news_id}]" value="{$new.listorder}"></td>
+                                            <td>{$new.news_id}</td>
+                                            <td>{$new.title}</td>
+                                            <td>{$new.catid|getMenu=$homeMenus,###}</td>
+                                            <td>{$new.copyfrom|getCopyFromByAddr}</td>
+                                            <td>{$new.thumb|isHasThumb}</td>
+                                            <td>{$new.create_time|date='Y-m-d H:i',###}</td>
+                                            <td>
+                                                <section class="pull-left" id="txt_status">
+                                                    {$new.status|getStatus}
+                                                </section>
+                                                <span class="pull-left" style="margin: 0 5px">|</span>
+                                                <section class="pull-left">
+                                                    <div class="turn">
+                                                        <label for="checkbox"></label>
+                                                        <input type="checkbox" id="checkbox" attr-id="{$new.news_id}" attr-message="状态" <if condition="$new.status eq 1">checked</if>>
+                                                        <span></span>
+                                                    </div>
+                                                </section>
+                                            </td>
+                                            <td>
+                                                <i class="fa fa-lg fa-edit fa-cursor" id="new_edit" attr-id="{$new.news_id}"></i>
+                                                <i class="fa fa-lg fa-trash-o fa-cursor" id="new_del" attr-id="{$new.news_id}" attr-a="news" attr-message="删除"></i>
+                                                <i class="fa fa-lg fa-eye fa-cursor" id="new_view" attr-id="{$new.news_id}" attr-message="预览"></i>
+                                            </td>
+
+                                        </tr>
+                                    </volist>
+                                </tbody>
+                            </table>
+                        </form>
+                        <div class="col-sm-12">
+                            <nav role="page" class="pull-left">
+                                <ul class="pagination">
+                                    {$pageShow}
+                                    <!--<li>
+                                      <a href="#" aria-label="Previous">
+                                        <span aria-hidden="true">&laquo;</span>
+                                      </a>
+                                    </li>
+                                    <li><a href="#">1</a></li>
+                                    <li><a href="#">2</a></li>
+                                    <li><a href="#">3</a></li>
+                                    <li><a href="#">4</a></li>
+                                    <li><a href="#">5</a></li>
+                                    <li>
+                                      <a href="#" aria-label="Next">
+                                        <span aria-hidden="true">&raquo;</span>
+                                      </a>
+                                    </li>-->
+                                </ul>
+                            </nav>
+                            <div class="btn-group pull-right">
+                                <button class="btn btn-primary dropdown-toggle" id="new_order"><i class="fa fa-lg fa-sort-amount-asc"></i>更新排序</button>
+                            </div>
+                        </div>
+
+                        <div class="input-group col-sm-3">
+                            <select class="form-control" name="position_id" id="select_push">
+                                <option value="">请选择推荐位置推送</option>
+                                <volist name="positions" id="position">
+                                    <option value="{$position.id}">{$position.name}</option>
+                                </volist>
+
+                            </select>
+                            <span class="input-group-btn"><button type="button" class="btn btn-primary" id="select_push_sub">推送</button></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+<script>
+    var SCOPE={
+        'add_url':'/admin.php?c=content&a=add',
+        'edit_url':'/admin.php?c=content&a=edit',
+        'set_status_url':'/admin.php?c=content&a=setStatus',
+        'del_url':'/admin.php?c=content&a=del',
+        'listorder_url':'/admin.php?c=content&a=listOrder',
+        'push_url':'/admin.php?c=positioncontent&a=push',
+        'jump_url':'/admin.php?c=content'
+    };
+</script>
+<include file="Index/footer" />

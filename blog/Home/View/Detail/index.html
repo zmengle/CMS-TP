@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>detail</title>
+    <include file="Index/header" />
+</head>
+<body>
+<!-- index -->
+    <!-- nav -->
+    <include file="Index/nav" />
+
+    <div class="container detail">
+        <!-- container -->
+        <div class="row">
+            <div class="col-md-9">
+                <div class="page-content">
+                    <div class="title-info">
+                        <!-- 标题、作者、时间、访问量 -->
+                        <h3>{$detail.new.title}</h3>
+                        <div class="a-d-c">
+                            <span>作者：{$detail.new.username}</span>
+                            <span>时间：{$detail.new.create_time|date='Y-m-d H:i',###}</span>
+                            <span>访问量：({$detail.new.count})</span>
+                        </div>
+                    </div>
+                    <div class="keys-description">
+                        <!-- 关键词、描述 -->
+                        <div class="keys"><i class="fa fa-fw fa-tags"></i>
+                            <!--<span class="badge">教育</span><span class="badge">教育</span><span class="badge">教育</span>-->
+                            {$detail.new.keywords|getKeyTags}
+                        </div>
+                        <div class="description">
+                            <p class=""><i class="fa fa-fw fa-bookmark"></i> {$detail.new.description}</p>
+                        </div>
+                    </div>
+                    <div class="content-info">
+                        <!-- 具体内容部分 -->
+                        {$detail.newContent.content}
+                    </div>
+                    <!-- <div class="like-info">
+                        点赞和踩 暂时不做
+                        <div class="like"><i class="fa fa fa-thumbs-o-up"></i>喜欢</div>
+                        <div class="hate"><i class="fa fa fa-thumbs-o-down"></i>不喜欢</div>
+                    </div> -->
+                    <div class="prevs-next">
+                        <!-- 上下篇链接 -->
+                        <div class="prevs">上一篇：<if condition="$detail.prevNew eq null">没有了<else />
+                            <a href="{$detail.prevNew.news_id|getNewUrl}">{$detail.prevNew.title}</a></if></div>
+                        <div class="next">下一篇：<if condition="$detail.nextNew eq null">没有了<else />
+                            <a href="{$detail.nextNew.news_id|getNewUrl}">{$detail.nextNew.title}</a></if></div>
+                    </div>
+                    <!-- <div class="comment-message">
+                        留言评论区区 暂时不做
+                        <div class="leave-comment"></div>
+                        <div class="message-list"></div>
+                    </div> -->
+                </div>
+            </div>
+            <include file="Index/right" />
+        </div>
+    </div>
+    <include file="Index/footer" />
+
+<!-- js -->
+<script src="../../../../Public/js/jquery-3.2.1.js"></script>
+<script src="../../../../Public/bootstrap/js/bootstrap.js"></script>
+</body>
+</html>

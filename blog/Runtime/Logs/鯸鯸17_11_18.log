@@ -1,0 +1,27 @@
+[ 2017-11-18T19:59:37+08:00 ] 127.0.0.1 /admin.php?c=login&m=%f6<img%20acu%20onmouseover=8sqI(9353)%20//%f6>
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000649s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000794s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000870s ]
+ERR: 无法加载控制器:Login
+
+[ 2017-11-18T19:59:46+08:00 ] 127.0.0.1 /admin.php?c=login&m=%f6<img%20acu%20onmouseover=MtS8(9704)%20//%f6>
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000625s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000768s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000845s ]
+ERR: 无法加载控制器:Login
+
+[ 2017-11-18T20:00:49+08:00 ] 127.0.0.1 /admin.php/%f6<img%20acu%20onmouseover=24Pp(9138)%20//%f6>
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000574s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000796s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000875s ]
+ERR: 无法加载控制器:�>
+

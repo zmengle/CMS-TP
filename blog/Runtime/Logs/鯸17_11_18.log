@@ -1,0 +1,9 @@
+[ 2017-11-18T19:45:37+08:00 ] 127.0.0.1 /index.php/%f6<img%20acu%20onmouseover=8LSD(9111)%20//%f6>
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000980s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000782s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000852s ]
+ERR: 无法加载控制器:�>
+

@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>checkbox</title>
+    <link rel="stylesheet" href="Public/css/checkbox.css">
+</head>
+<body>
+
+<!--<input type="checkbox" id="checkbox" checked>
+<button id="b1">true</button>
+<button id="b2">false</button>
+<script type="text/javascript">
+    var n=0;
+    var a=document.getElementById('checkbox');
+    a.onclick=function(e) {
+//        var b=v.checked;
+        console.log(a.checked);
+        var c=a.checked;
+        if(n==1){
+            if(c===true){
+                a.checked=false;
+            }else {
+                a.checked=true;
+            }
+        }else{
+            if(c===true){
+                a.checked=true;
+            }else {
+                a.checked=false;
+            }
+        }
+
+        console.log(a.checked);
+    }
+
+    var b1=document.getElementById('b1');
+    var b2=document.getElementById('b2');
+    b1.onclick=function () {
+        a.checked=true;
+    }
+    b2.onclick=function () {
+        a.checked=false;
+    }
+
+</script>-->
+<script src="Public/js/jquery-3.2.1.js"></script>
+<script src="Public/js/dialog/layer.js"></script>
+<script>
+
+    $(function () {
+//        console.log($aa = 11);可以定义$变量
+        var checkbox=$('#checkbox');
+//        $(checkbox).click(function (e) {
+//            console.log(checkbox);
+//            console.log($(this).attr("checked"));
+//        });
+        var result={'status':1, 'message':'成功','data':[]};
+
+        $(checkbox).on('mousedown', function (e) {
+            var status=$(checkbox).attr('checked') ? true:false;
+//        console.log($(checkbox).attr('checked'));
+            console.log(status);
+            layer.open({
+                type:0,
+                title:'确认操作',
+                content:'确认修改信息',
+                btn:['确认', '取消'],
+                icon:3,
+                closeBtn:2,
+                yes:function (i) {
+                    //模拟post请求返回数据
+                    if(result.status==1){
+                        if(status===false){
+                            $(checkbox).attr('checked',true);
+                            return layer.close(i);
+                        }
+                        $(checkbox).attr('checked',false);
+                        return layer.close(i);
+                    }
+                    if(status===true){
+                        $(checkbox).attr('checked',true);
+                        return layer.close(i);
+                    }
+                    $(checkbox).attr('checked',false);
+                    return layer.close(i);
+                },
+                btn2:function () {
+
+                }
+            });
+        });
+
+    })
+</script>
+
+<div class="box" style="border: 1px solid #000;padding: 50px;">
+    <!--将按钮部分放到这里-->
+    <style type="text/css">
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        /*固定宽高比2:1*/
+        .turn{
+            width: 100px;
+            height: 50px;
+            display: inline-block;
+            position: relative;
+            background-color: red;
+            border: 1px solid red;
+        }
+        .turn input[type=checkbox]{
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            left: 0;
+            top: 0;
+            opacity: 0;
+            z-index: 1;
+            cursor: pointer;
+        }
+        .turn span{
+            width: 100%;
+            height: 100%;
+            background: #ccc;
+            position: relative;
+            display: inline-block;
+            border-radius: 25px; /*宽度的1/4*/
+            -webkit-transition: 0.4s;
+            transition: 0.4s;
+        }
+        .turn span::after{
+            content: '';
+            position: absolute;
+            width: 50%;
+            height: 100%;
+            border-radius: 100%;
+            left: 0;
+            top: 0;
+            background: #fff;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+            -webkit-transition: 0.4s;
+            transition: 0.4s;
+        }
+        .turn input:hover + span::after{
+            box-shadow: 0 2px 15px 0 rgba(0, 0, 0, 0.2), 0 3px 8px 0 rgba(0, 0, 0, 0.15);
+        }
+        .turn input:checked + span{
+             background: #4BD865;
+         }
+        .turn input:checked + span::after{
+            left: 50%;
+        }
+
+    </style>
+    <div class="turn">
+        <label for="checkbox"></label>
+        <input type="checkbox" id="checkbox">
+        <span></span>
+    </div>
+    <div class="turn">
+        <label for="checkbox"></label>
+        <input type="checkbox" id="checkbox2">
+        <span></span>
+    </div>
+</div>
+<script>
+    $('#checkbox2').mousedown(function (e) {
+        var st=$(this).attr('checked');
+//        alert('ss');
+        console.log(document.getElementById('checkbox'));
+        console.log($('#checkbox')[0]);
+//        document.getElementById('checkbox').checked=false;
+        $('#checkbox').attr('checked');
+    });
+</script>
+<select name="" id="ll" style="width: 100px">
+    <option value=""></option>
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+</select>
+<button id="b3">select</button>
+<script>
+    $(function () {
+        $("#b3").click(function () {
+            alert($('select#ll').val());
+        });
+    })
+//    alert(((1349/2)-100/(1349/2))/1349);
+</script>
+
+</body>
+</html>

@@ -1,0 +1,31 @@
+<div class="col-md-3 rank-right">
+    <div class="ranking">
+        <h3 class="text-center">文章排行<br><span style="font-size: 12px;color:#999;">TOP ARTICLES</span></h3>
+        <ul class="list-group">
+            <!--<li class="active">-->
+                <!--<a href="#" class="rank-title">使用 @media 查询</a>-->
+                <!--<p class="p-info">-->
+                    <!--当你重置浏览器大小的过程中，keywords也会根据浏览器的宽度和高度重新渲染页面...-->
+                <!--</p>-->
+            <!--</li>-->
+            <volist name="News" id="New" offset="0" length="10">
+                <li>
+                    <a href="{$New.news_id|getNewUrl}" class="rank-title" title="{$New.title}">{$New.title|getLengthTitle=36, ###}</a>
+                    <if condition="$key eq 0">
+                        <p class="p-info">
+                            {$New.description|getLengthTitle=132, ###}
+                        </p>
+                    </if>
+                </li>
+            </volist>
+        </ul>
+    </div>
+    <div class="advertising">
+        <!-- 广告 -->
+        <volist name="advers" id="adver" offset="0" length="2">
+            <a href="{$adver.url}" class="radius-shadow"><img src="{$adver.thumb}" alt="{$adver.title}"></a>
+        </volist>
+        <!--<a href="" class="radius-shadow"><img src="Public/images/banner1.jpg" alt=""></a>-->
+        <!--<a href="" class="radius-shadow"><img src="Public/images/banner1.jpg" alt=""></a>-->
+    </div>
+</div>

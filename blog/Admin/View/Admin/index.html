@@ -1,0 +1,109 @@
+<include file="Index/header" />
+<body>
+<div id="wrapper">
+
+    <include file="Index/nav" />
+    <div id="page-wrapper" class="content-wrapper py3">
+        <div class="container-fluid">
+            
+            <div class="row">
+                <div class="col-lg-12 mt20">
+                    <ol class="breadcrumb">
+                        <li><i class="fa fa-dashboard"></i><a href="/admin.php?c=admin"> 用户管理</a></li>
+                        <li class="active"><i class="fa fa-table"></i> 用户列表</li>
+                    </ol>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="btn-group">
+                        <button class="btn btn-primary" type="button" id="button-add" ><i class="fa fa-plus fa-lg"></i>添加</button>
+                    </div>
+                </div> 
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <h3>用户列表</h3>
+                    <div class="table-responsive">
+                        <from id="">
+                            <table class="table table-bordered table-hover admin_list">
+                                <thead>
+                                    <tr>
+                                        <!-- <th width="14">排序</th> -->
+                                        <th>id</th>
+                                        <th>用户名</th>
+                                        <th>模真实姓名</th>
+                                        <th>最后登录时间</th>
+                                        <th>状态</th>
+                                        <th>操作</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <volist name="adminUsers" id="adminUser">
+                                        <tr>
+                                            <!-- <td><input size="4" type="text" name="" value=""></td> -->
+                                            <td>{$adminUser.admin_id}</td>
+                                            <td>{$adminUser.username}</td>
+                                            <td>{$adminUser.realname}</td>
+                                            <td>{$adminUser.lastlogintime|date='Y-m-d H:i', ###}</td>
+                                            <td>
+                                                <section class="pull-left" id="txt_status">
+                                                    {$adminUser.status|getStatus}
+                                                </section>
+                                                <span class="pull-left" style="margin: 0 5px">|</span>
+                                                <section class="pull-left">
+                                                    <div class="turn">
+                                                        <label for="checkbox"></label>
+                                                        <input type="checkbox" id="checkbox" attr-id="{$adminUser.admin_id}" attr-message="状态" <if condition="$adminUser.status eq 1">checked</if>>
+                                                        <span></span>
+                                                    </div>
+                                                </section>
+                                            </td>
+                                            <td>
+                                                <i class="fa fa-lg fa-edit fa-cursor" id="admin_edit" attr-id="{$adminUser.admin_id}"></i>
+                                                <i class="fa fa-lg fa-trash-o fa-cursor" id="admin_del" attr-id="{$adminUser.admin_id}" attr-a="admin" attr-message="删除"></i>
+                                            </td>
+                                        </tr>
+                                    </volist>
+                                </tbody>
+                            </table>
+                        </from>
+                        <nav role="page">
+                            <!--<ul class="pagination">
+                                <li>
+                                  <a href="#" aria-label="Previous">
+                                    <span aria-hidden="true">&laquo;</span>
+                                  </a>
+                                </li>
+                                <li><a href="#">1</a></li>
+                                <li><a href="#">2</a></li>
+                                <li><a href="#">3</a></li>
+                                <li><a href="#">4</a></li>
+                                <li><a href="#">5</a></li>
+                                <li>
+                                  <a href="#" aria-label="Next">
+                                    <span aria-hidden="true">&raquo;</span>
+                                  </a>
+                                </li>
+                            </ul>-->
+                        </nav>
+                        <div class="btn-group">
+                            <!--<button class="btn btn-primary"><i class="fa fa-lg fa-sort-amount-asc"></i>更新排序</button>-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+<script>
+    var SCOPE={
+        'add_url':'/admin.php?c=admin&a=add',
+        'del_url':'/admin.php?c=admin&a=del',
+        'set_status_url':'/admin.php?c=admin&a=setStatus',
+        'edit_url':'/admin.php?c=admin&a=edit',
+        'jump_url':'/admin.php?c=admin'
+    };
+</script>
+<include file="Index/footer" />

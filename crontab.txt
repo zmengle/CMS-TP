@@ -1,0 +1,4 @@
+//首页自动更新缓存命令
+*/5 * * * * php /data/cms/cron.php home index crontab_build_html > /dev/null
+//数据库自动备份命令
+0 1 * * * * php /data/cms/cron.php admin cron dumpmysql > /dev/null

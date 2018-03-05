@@ -1,0 +1,114 @@
+<include file="Index/header" />
+<body>
+<div id="wrapper">
+
+    <include file="Index/nav" />
+    <div id="page-wrapper" class="content-wrapper py3">
+        <div class="container-fluid">
+            <!-- container -->
+            <div class="row">
+                <div class="col-lg-12 mt20">
+                    <ol class="breadcrumb">
+                        <li class="active"><i class="fa fa-table"></i> 推荐位内容管理</li>
+                    </ol>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 mb20">
+                    <div class="btn-group">
+                        <button class="btn btn-primary dropdown-toggle" type="button" id="button-add" aria-haspopup="true" aria-expanded="false" data-toggle="dropdown"><i class="fa fa-plus fa-lg" aria-hidden="true"></i>添加</button>
+                    </div>
+                </div> 
+            </div>
+            <div class="row">
+                <form action="/admin.php" method="get">
+                    <div class="col-md-5">
+                        <div class="input-group">
+                            <span class="input-group-addon">推荐位</span>
+                            <select class="form-control" name="position_id" id="position_id">
+                                <option value="">===请选择推荐位置===</option>
+                                <volist name="positions" id="position">
+                                    <option value="{$position.id}" <if condition="$position['id'] eq $cur_position_id">selected</if>>{$position.name}</option>
+                                </volist>
+                            </select>
+                        </div>
+                    </div>
+                    <input type="hidden" name="c" value="positioncontent">
+                    <input type="hidden" name="a" value="index">
+                    <div class="col-md-5">
+                        <div class="input-group"><input class="form-control" type="text" name="title" value="{$cur_title}" placeholder="文章标题"><i class="input-group-btn"><button class="btn btn-primary" id="" type="submit"><i class="fa fa-lg fa-search"></i></button></i></div>
+                    </div>
+                </form>
+            </div>
+            <div class="row">
+                <div class="col-lg-8">
+                    <h3>推荐位内容列表</h3>
+                    <div class="table-responsive">
+                        <form action="" id="p_c_listOrder">
+                           <table class="table table-bordered table-hover p_c_list">
+                                <thead>
+                                    <tr>
+                                        <th width="14">排序</th>
+                                        <th>id</th>
+                                        <th>推荐位置</th>
+                                        <th>标题</th>
+                                        <th>封面图</th>
+                                        <th>时间</th>
+                                        <th>状态</th>
+                                        <th>操作</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <volist name="lists" id="list">
+                                        <tr>
+                                            <td><input size="4" type="text" name="listorder[{$list.id}]" value="{$list.listorder}"></td>
+                                            <td>{$list.id}</td>
+                                            <td>{$list.position_id|getPositionName=$positions, ###}</td>
+                                            <td>{$list.title}</td>
+                                            <td>{$list.thumb|isHasThumb}</td>
+                                            <td>{$list.create_time|date='Y-m-d H:i', ###}</td>
+                                            <td>
+                                                <section class="pull-left" id="txt_status">
+                                                    {$list.status|getStatus}
+                                                </section>
+                                                <span class="pull-left" style="margin: 0 5px;">|</span>
+                                                <section class="pull-left">
+                                                    <div class="turn"><label for="checkbox">
+                                                    </label><input type="checkbox" id="checkbox" attr-id="{$list.id}" attr-message="状态" <if condition="$list.status eq 1">checked</if>>
+                                                        <span></span>
+                                                    </div>
+                                                </section>
+                                            </td>
+                                            <td>
+                                                <i class="fa fa-lg fa-edit fa-cursor" id="p_c_edit" attr-id="{$list.id}" attr-message="编辑">
+                                                </i><i class="fa fa-lg fa-trash-o fa-cursor" id="p_c_del" attr-id="{$list.id}" attr-message="删除"></i>
+                                            </td>
+                                        </tr>
+                                    </volist>
+                                </tbody>
+                            </table> 
+                        </form>
+                        <nav role="page">
+                            {$pageShow}
+                        </nav>
+                        <div class="btn-group">
+                            <button class="btn btn-primary dropdown-toggle" id="p_c_order"><i class="fa fa-lg fa-sort-amount-asc"></i>更新排序</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+<script>
+    var SCOPE={
+        'add_url' : '/admin.php?c=positioncontent&a=add',
+        'edit_url' : '/admin.php?c=positioncontent&a=edit',
+        'del_url' : '/admin.php?c=positioncontent&a=del',
+        'set_status_url':'/admin.php?c=positioncontent&a=setStatus',
+        'listorder_url' : '/admin.php?c=positioncontent&a=listorder',
+        'jump_url': '/admin.php?c=positioncontent'
+    };
+</script>
+<include file="Index/footer" />

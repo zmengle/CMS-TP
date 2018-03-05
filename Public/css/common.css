@@ -1,0 +1,16 @@
+/* 全局css */
+body{
+    font-family: "Microsoft YaHei",Arial;
+}
+.mt20{
+    margin-top: 20px;
+}
+.mb20{
+    margin-bottom: 20px;
+}
+.pl20{
+    padding-left: 20px;
+}
+.fa-cursor{
+    cursor: pointer;
+}
